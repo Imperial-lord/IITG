@@ -12,7 +12,7 @@ def genetate_uis(a,b,m,x):
             break
     u_values.sort()
     no_bins=int(1/0.05)
-    plt.hist(u_values, bins=no_bins)
+    plt.hist(u_values, bins=no_bins, rwidth=0.8)
     plt.show()
 
 m=244944

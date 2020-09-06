@@ -4,11 +4,11 @@ def print_table(a,b,m):
         print(a,b,m,x, end='\t')
         temp=x
         for y in range(0,m+1):
-            print("{:.2f}".format(temp/m),end=' | ')
+            print((temp),end=', ')
             temp1=temp
             temp=(temp1*a+b)%m
             if(temp==x):
-                print("{:.2f}".format(x/m),'...'),
+                print(x,'...'),
                 break
 print_table(3,0,11)
 print('\n')

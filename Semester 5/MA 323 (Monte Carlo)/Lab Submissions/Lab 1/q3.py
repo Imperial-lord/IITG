@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 x_cor=[]
 y_cor=[]
 def print_table(a,b,m):
-    x=100 #assuming x0=1 in this case. We also observe that the graph does not change pattern by varying x0.
+    x=1 #assuming x0=1 in this case. We also observe that the graph does not change pattern by varying x0.
     temp=x
     for y in range(0,m+1):
         temp1=temp

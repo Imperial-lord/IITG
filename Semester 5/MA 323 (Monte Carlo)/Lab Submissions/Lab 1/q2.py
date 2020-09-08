@@ -33,11 +33,11 @@ def genetate_uis(m,x):
     v_values.sort()
     plt.hist(v_values, no_bins, rwidth=0.8, label='a=51749')
     plt.legend(loc='upper right')
+    plt.title('x0 ='+str(x))
     plt.show()
 
 m=244944
 for i in range (0,5):
-    x = random.randint(0,m)
-    print('x0 =',x)
+    x = random.randint(1,m)
     genetate_uis(m,x)
 

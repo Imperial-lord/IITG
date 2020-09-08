@@ -10,7 +10,7 @@ def print_table(a,b,m):
             if(temp==x):
                 print(x,'...'),
                 break #we need to stop after we complete the cycle
-print_table(3,0,11)
-print('\n')
 print_table(6,0,11)
+print('\n')
+print_table(3,0,11)
 

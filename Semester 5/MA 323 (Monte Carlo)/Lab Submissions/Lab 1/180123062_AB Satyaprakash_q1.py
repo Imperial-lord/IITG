@@ -1,5 +1,5 @@
 def print_table(a,b,m):
-    print('a b m  x \tsequence',end='\n\n') #print the table headers
+    print('a b m  x0 \tsequence',end='\n\n') #print the table headers
     for x in range(0,11):
         print(a,b,m,x, end='\t')
         temp=x

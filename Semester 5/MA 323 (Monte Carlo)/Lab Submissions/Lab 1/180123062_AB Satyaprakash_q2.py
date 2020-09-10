@@ -1,3 +1,6 @@
+# pip3 install matplotlib
+# pip3 install numpy
+# (Assuming PYTHON 3 as per my system. If not python 3, we can use pip instead of pip3)
 import matplotlib.pyplot as plt 
 import random
 import numpy

@@ -7,8 +7,8 @@ def generate_first_17():
     m=4096
     a=17
     for i in range(0,17):
+        u.append(x/m)
         t=(a*x+1)%m #b=1
-        u.append(t/m)
         x=t
 
 def fib_genforu():

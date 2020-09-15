@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 u=[]
 
 def generate_first_17():
-    #X(i+1)=X(i)A mod M and U(i+1)=X(i+1)/M -> Linear Congruence Generator
+    #X(i+1)=(X(i)A + B) mod M and U(i+1)=X(i+1)/M -> Linear Congruence Generator
     x=23 # x0 value
     m=4096
     a=17
@@ -40,7 +40,7 @@ def plot_hist(l):
     if(len(l)==100000):
         no_values=len(l)
     label_hist='Histogram for '+str(no_values)+' values of U'
-    plt.hist(l, bins='auto', rwidth=0.85, color='#FFD600')
+    plt.hist(l, bins=20, rwidth=0.85, color='#FFD600') #bins fixed at 20
     plt.title(label_hist)
     plt.xlabel('Values')
     plt.ylabel('Frequency')

@@ -1,0 +1,36 @@
+<title>Vdbench group12_output_comp/parmfile.html</title><pre>
+
+* Contents of parameter file: /home/imperial_lord/Downloads/Assignment-4/vdbench/source_comp
+
+* CS 344 Operating Systems Lab 4
+* Authors: Group12 (Mohammad Humam Khan, AB Satyaprakash, Kartikeya Singh, Siddhartha Jain) 
+* Data Compression testing 
+
+* Explanation of the vdbench example below:
+* fanchor = file system path where the directories and files will be created
+* dirwid = width of the directories
+* numfiles = number of files per directory
+* filesize = size of a file in in k, m, g (e.g. 16k = 16KBytes)
+* fxfersize = file I/O transfer size in kbytes
+* thrds = number of threads or workers
+* etime = how long to run in minutes (m) or hours (h)
+* itime = interval sample time (e.g. 30 seconds)
+* dirdep = depth of the directory tree
+* filrdpct = percentage of reads (e.g. 90 = 90 percent reads)
+* -p processnumber = optional specify a process number, only needed if running multiple vdbenchs at same time, number should be unique
+* -o output file that describes what being done and some config info
+* The real Vdbench script with command line parameters indicated by !=
+
+* Command line argument used for testing compression 
+*./vdbench -f source_comp fanchor=/gr12/dir1 dirwid=64 numfiles=512 filesize=128k fxfersize=128k thrds=64 etime=1m itime=30 dirdep=1 filrdpct=0 -p 5576 -o group12_output_comp
+
+************************************************ Create Workload **************************************************
+compratio=20 
+fsd=fsd1,anchor=!fanchor,depth=!dirdep,width=!dirwid,files=!numfiles,size=!filesize 
+    variable substitution: fsd=fsd1,anchor=/gr12/dir1,depth=1,width=64,files=512,size=128k 
+fwd=fwd1,fsd=fsd1,rdpct=!filrdpct,xfersize=!fxfersize,fileselect=random,fileio=random,threads=!thrds 
+    variable substitution: fwd=fwd1,fsd=fsd1,rdpct=0,xfersize=128k,fileselect=random,fileio=random,threads=64 
+rd=rd1,fwd=fwd1,fwdrate=max,format=yes,elapsed=!etime,interval=!itime 
+    variable substitution: rd=rd1,fwd=fwd1,fwdrate=max,format=yes,elapsed=1m,interval=30 
+*******************************************************************************************************************
+

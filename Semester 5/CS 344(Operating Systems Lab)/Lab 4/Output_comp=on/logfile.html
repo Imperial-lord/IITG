@@ -1,0 +1,106 @@
+<title>Vdbench group12_output_comp/logfile.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench distribution: vdbench50407
+
+16:08:52.732 input argument scanned: '-fsource_comp'
+16:08:52.734 input argument scanned: 'fanchor=/gr12/dir1'
+16:08:52.736 input argument scanned: 'dirwid=64'
+16:08:52.736 input argument scanned: 'numfiles=512'
+16:08:52.736 input argument scanned: 'filesize=128k'
+16:08:52.737 input argument scanned: 'fxfersize=128k'
+16:08:52.737 input argument scanned: 'thrds=64'
+16:08:52.737 input argument scanned: 'etime=1m'
+16:08:52.737 input argument scanned: 'itime=30'
+16:08:52.737 input argument scanned: 'dirdep=1'
+16:08:52.737 input argument scanned: 'filrdpct=0'
+16:08:52.737 input argument scanned: '-p5576'
+16:08:52.739 input argument scanned: '-ogroup12_output_comp'
+16:08:52.739 java.vendor                   Ubuntu
+16:08:52.739 java.home                     /usr/lib/jvm/java-11-openjdk-amd64
+16:08:52.740 java.vm.specification.version 11
+16:08:52.740 java.vm.version               11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+16:08:52.740 java.vm.vendor                Ubuntu
+16:08:52.740 java.specification.version    11
+16:08:52.740 java.class.version            55.0
+16:08:52.740 user.name                     imperial_lord
+16:08:52.740 user.dir                      /home/imperial_lord/Downloads/Assignment-4/vdbench
+16:08:52.740 java.io.tmpdir                /tmp
+16:08:52.740 java.class.path               ./:./classes:./vdbench.jar
+16:08:52.740 os.name                       Linux
+16:08:52.740 os.arch                       amd64
+16:08:52.740 os.version                    5.4.0-54-generic
+16:08:52.741 sun.arch.data.model           64
+16:08:52.743 Flushing all reports
+16:08:52.777 Creating anchor for /gr12/dir1,fsd=fsd1
+16:08:52.816 rd1 fsd to format: fsd1
+16:08:52.817 rd1 format on host: localhost
+16:08:52.825 Anchor size: anchor=/gr12/dir1: dirs:           64; files:       32,768; bytes:     4.000g (4,294,967,296)
+16:08:52.883 Starting slave: /home/imperial_lord/Downloads/Assignment-4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201125-16.08.52.653 -l localhost-0 -p 5576   
+16:08:54.127 Slave localhost-0 (pid  37604) connected to master 37562
+16:08:54.159 All slaves are now connected
+
+Link to Run Definitions:         <A HREF="#_1359044626">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_692342133">rd1 For loops: None</A>
+
+16:08:54.371 Flushing all reports
+16:08:54.375 slv=localhost-0 fwd=format fsd=fsd1 anchor=/gr12/dir1 threads= 8 skew= 0.00 operation=read 
+16:08:54.410 Waiting for synchronization of all slaves
+16:08:54.610 Synchronization of all slaves complete
+
+<a name="_1359044626"></a><i><b>16:08:55.005 Starting RD=format_for_rd1</b></i>
+
+16:08:57.837 localhost-0: anchor=/gr12/dir1 mkdir complete.
+16:09:15.001 localhost-0: anchor=/gr12/dir1: Created 7,848 of 32,768 files (23.95%)
+Nov 25, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+16:09:25.129            1  371.1  8.377  35.1 9.11   0.0    0.0  0.000  371.1  8.377  0.00 46.38  46.38  131072   2.1 164.43   2.1  0.365 371.1 19.422 371.1 10.800 371.1  0.019  1092  0.306
+16:09:30.840 localhost-0: anchor=/gr12/dir1: Created 13,080 of 32,768 files (39.92%)
+16:09:45.945 localhost-0: anchor=/gr12/dir1: Created 16,677 of 32,768 files (50.89%)
+16:09:55.048            2  297.4 14.978  26.0 7.19   0.0    0.0  0.000  297.4 14.978  0.00 37.18  37.18  131072   0.0  0.000   0.0  0.000 297.4 25.588 297.6 10.436 297.4  0.015   0.0  0.000
+16:10:01.312 localhost-0: anchor=/gr12/dir1: Created 22,236 of 32,768 files (67.86%)
+16:10:17.112 localhost-0: anchor=/gr12/dir1: Created 26,814 of 32,768 files (81.83%)
+16:10:25.042            3  284.5 17.002  25.0 7.26   0.0    0.0  0.000  284.5 17.002  0.00 35.56  35.56  131072   0.0  0.000   0.0  0.000 284.5 29.026 284.3 11.823 284.5  0.016   0.0  0.000
+16:10:35.399 localhost-0: anchor=/gr12/dir1: Created 30,738 of 32,768 files (93.80%)
+16:10:38.725 localhost-0: anchor=/gr12/dir1 create complete.
+16:10:39.035            4  139.3 14.062  26.2 7.38   0.0    0.0  0.000  139.3 14.062  0.00 17.41  17.41  131072   0.0  0.000   0.0  0.000 139.3 27.395 139.3 13.149 139.3  0.016   0.0  0.000
+16:10:39.121      avg_2-4  240.4 15.599  25.6 7.25   0.0    0.0  0.000  240.4 15.599  0.00 30.05  30.05  131072   0.0  0.000   0.0  0.000 240.4 27.293 240.4 11.507 240.4  0.016   0.0  0.000
+16:10:39.124      std_2-4   89.4 170.27                                  89.4 170.27                                                       89.4 218.57  89.4 120.15  89.4  0.014             
+16:10:39.130      max_2-4  297.0 3541.4                                 297.0 3541.4                                  509.02        2.339 297.0 3617.4 297.0 3545.2 297.0  0.901       37.689
+16:10:39.899 
+16:10:39.899 Miscellaneous statistics:
+16:10:39.899 (These statistics do not include activity between the last reported interval and shutdown.)
+16:10:39.900 FILE_CREATES        Files created:                               32,768        273/sec
+16:10:39.900 DIRECTORY_CREATES   Directories created:                             64          0/sec
+16:10:39.900 FILE_DELETES        Files deleted:                               32,768        273/sec
+16:10:39.900 DIRECTORY_DELETES   Directories deleted:                             64          0/sec
+16:10:39.900 WRITE_OPENS         Files opened for write activity:             32,768        273/sec
+16:10:39.900 FILE_CLOSES         Close requests:                              32,768        273/sec
+16:10:39.900 
+16:10:39.901 Flushing all reports
+16:10:40.689 Java Heap in MB. max:  512.000; current:   66.000; used:   23.716; free:   42.284
+16:10:40.710 slv=localhost-0 fwd=fwd1 fsd=fsd1 anchor=/gr12/dir1 threads=64 skew= 0.00 operation=read 
+16:10:40.716 Waiting for synchronization of all slaves
+16:10:40.916 Synchronization of all slaves complete
+
+<a name="_692342133"></a><i><b>16:10:41.002 Starting RD=rd1; elapsed=60; fwdrate=max. For loops: None</b></i>
+
+Nov 25, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+16:11:11.031            1  174.5 181.73  24.3 6.03   0.0    0.0  0.000  174.5 181.73  0.00 21.81  21.81  131072   0.0  0.000   0.0  0.000   0.0  0.000 176.0 140.48 174.5  0.014   0.0  0.000
+16:11:41.028            2  177.8 218.58  24.6 6.31   0.0    0.0  0.000  177.8 218.58  0.00 22.23  22.23  131072   0.0  0.000   0.0  0.000   0.0  0.000 178.0 96.922 177.8  0.013   0.0  0.000
+16:11:41.039      avg_2-2  177.8 218.58  24.6 6.31   0.0    0.0  0.000  177.8 218.58  0.00 22.23  22.23  131072   0.0  0.000   0.0  0.000   0.0  0.000 178.0 96.922 177.8  0.013   0.0  0.000
+16:11:41.040      std_2-2                                                     710.42                                                                         392.21        0.016             
+16:11:41.040      max_2-2                                               177.0 4679.0                                                                   178.0 4701.8 177.0  0.642             
+16:11:42.855 
+16:11:42.855 Miscellaneous statistics:
+16:11:42.856 (These statistics do not include activity between the last reported interval and shutdown.)
+16:11:42.856 WRITE_OPENS         Files opened for write activity:             10,622        177/sec
+16:11:42.857 FILE_BUSY           File busy:                                       14          0/sec
+16:11:42.857 FILE_CLOSES         Close requests:                              10,570        176/sec
+16:11:42.857 
+16:11:42.857 Flushing all reports
+16:11:42.858 Java Heap in MB. max:  512.000; current:   66.000; used:   25.076; free:   40.924
+16:11:42.874 Ending Reporter
+16:11:43.491 Vdbench execution completed successfully. Output directory: /home/imperial_lord/Downloads/Assignment-4/vdbench/group12_output_comp 
+
+16:11:44.502 Java Heap in MB. max:  512.000; current:   66.000; used:   20.376; free:   45.624

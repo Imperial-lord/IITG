@@ -1,0 +1,316 @@
+<title>Vdbench group12_output_dedup/logfile.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench distribution: vdbench50407
+
+23:51:14.084 input argument scanned: '-fsource_dedup'
+23:51:14.085 input argument scanned: 'fanchor=/gr12/dir1'
+23:51:14.086 input argument scanned: 'dirwid=64'
+23:51:14.086 input argument scanned: 'numfiles=16384'
+23:51:14.087 input argument scanned: 'filesize=4k'
+23:51:14.087 input argument scanned: 'fxfersize=4k'
+23:51:14.087 input argument scanned: 'thrds=64'
+23:51:14.087 input argument scanned: 'etime=1m'
+23:51:14.087 input argument scanned: 'itime=30'
+23:51:14.087 input argument scanned: 'dirdep=1'
+23:51:14.087 input argument scanned: 'filrdpct=0'
+23:51:14.087 input argument scanned: '-p5576'
+23:51:14.089 input argument scanned: '-ogroup12_output_dedup'
+23:51:14.090 java.vendor                   Ubuntu
+23:51:14.090 java.home                     /usr/lib/jvm/java-11-openjdk-amd64
+23:51:14.091 java.vm.specification.version 11
+23:51:14.091 java.vm.version               11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+23:51:14.091 java.vm.vendor                Ubuntu
+23:51:14.091 java.specification.version    11
+23:51:14.091 java.class.version            55.0
+23:51:14.091 user.name                     imperial_lord
+23:51:14.091 user.dir                      /home/imperial_lord/Downloads/Assignment-4/vdbench
+23:51:14.091 java.io.tmpdir                /tmp
+23:51:14.092 java.class.path               ./:./classes:./vdbench.jar
+23:51:14.092 os.name                       Linux
+23:51:14.092 os.arch                       amd64
+23:51:14.092 os.version                    5.4.0-54-generic
+23:51:14.092 sun.arch.data.model           64
+23:51:14.096 Flushing all reports
+23:51:14.131 Creating anchor for /gr12/dir1,fsd=fsd1
+23:51:14.173 rd1 fsd to format: fsd1
+23:51:14.173 rd1 format on host: localhost
+23:51:14.188 Anchor size: anchor=/gr12/dir1: dirs:           64; files:    1,048,576; bytes:     4.000g (4,294,967,296)
+23:51:14.248 Starting slave: /home/imperial_lord/Downloads/Assignment-4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201124-23.51.14.028 -l localhost-0 -p 5576   
+23:51:15.009 Slave localhost-0 (pid  65256) connected to master 65227
+23:51:15.103 All slaves are now connected
+23:51:15.229 localhost-0: Created anchor directory: /gr12/dir1
+23:51:15.398 Dedup options: 
+dedup_type:                            1
+dedup_ratio:                       20.00
+dedup_unit:                        4,096
+flipflop:                             no
+hot_dedup_sets:                        0
+hot_dedup_blocks:                      0
+dedup_sets_reqd:                      5%
+dedup_sets_used:                  52,428
+
+unique_blocks:                         0
+duplicate_blocks:              1,048,576 (including 52,428 originals)
+dedup_pct:                          5.00
+dedup_adjusted:                     0.00
+total_size:                           4g
+unit_blocks:                   1,048,576
+
+Info only reliable if xfersize is multiple of dedupunit:
+uniques_written:                       0; expected 0; delta 0 
+duplicates_written:                    0; expected 1,048,576; delta -1,048,576 
+Total writes:                          0; delta -1,048,576
+flipflops:                             0
+
+Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+Dsim counts: Duplicates:         996,148
+Dsim counts: Ratio:                20.00 (20.00031)
+
+23:51:15.408 Dedup options: 
+dedup_type:                            1
+dedup_ratio:                       20.00
+dedup_unit:                        4,096
+flipflop:                             no
+hot_dedup_sets:                        0
+hot_dedup_blocks:                      0
+dedup_sets_reqd:                      5%
+dedup_sets_used:                  52,428
+
+unique_blocks:                         0
+duplicate_blocks:              1,048,576 (including 52,428 originals)
+dedup_pct:                          5.00
+dedup_adjusted:                     0.00
+total_size:                           4g
+unit_blocks:                   1,048,576
+
+Info only reliable if xfersize is multiple of dedupunit:
+uniques_written:                       0; expected 0; delta 0 
+duplicates_written:                    0; expected 1,048,576; delta -1,048,576 
+Total writes:                          0; delta -1,048,576
+flipflops:                             0
+
+Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+Dsim counts: Duplicates:         996,148
+Dsim counts: Ratio:                20.00 (20.00031)
+
+
+Link to Run Definitions:         <A HREF="#_1338823963">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_1156060786">rd1 For loops: None</A>
+
+23:51:15.835 Flushing all reports
+23:51:15.841 slv=localhost-0 fwd=format fsd=fsd1 anchor=/gr12/dir1 threads= 8 skew= 0.00 operation=read 
+23:51:15.847 Dedup options: 
+dedup_type:                            1
+dedup_ratio:                       20.00
+dedup_unit:                        4,096
+flipflop:                             no
+hot_dedup_sets:                        0
+hot_dedup_blocks:                      0
+dedup_sets_reqd:                      5%
+dedup_sets_used:                  52,428
+
+unique_blocks:                         0
+duplicate_blocks:              1,048,576 (including 52,428 originals)
+dedup_pct:                          5.00
+dedup_adjusted:                     0.00
+total_size:                           4g
+unit_blocks:                   1,048,576
+
+Info only reliable if xfersize is multiple of dedupunit:
+uniques_written:                       0; expected 0; delta 0 
+duplicates_written:                    0; expected 1,048,576; delta -1,048,576 
+Total writes:                          0; delta -1,048,576
+flipflops:                             0
+
+Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+Dsim counts: Duplicates:         996,148
+Dsim counts: Ratio:                20.00 (20.00031)
+
+23:51:15.937 Waiting for synchronization of all slaves
+23:51:17.142 Synchronization of all slaves complete
+
+<a name="_1338823963"></a><i><b>23:51:18.002 Starting RD=format_for_rd1</b></i>
+
+23:51:18.530 localhost-0: anchor=/gr12/dir1 mkdir complete.
+23:51:46.078 localhost-0: anchor=/gr12/dir1: Created 31,455 of 1,048,576 files (3.00%)
+23:52:03.840 localhost-0: anchor=/gr12/dir1: Created 41,940 of 1,048,576 files (4.00%)
+Nov 24, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+23:52:04.129            1 1385.3  5.265  28.8 7.50   0.0    0.0  0.000 1385.3  5.265  0.00  5.41   5.41    4096   2.1  3.692   0.0  0.000  1385  7.801  1385  2.441  1385  0.007   0.0  0.000
+23:52:04.783 Reporting delay:     1 (  0) (  1) 23:51:48.000   9.454  15.837  15.837  16.781   0.944
+23:52:18.052            2  621.7  3.914  31.6 7.85   0.0    0.0  0.000  621.7  3.914  0.00  2.43   2.43    4096   0.0  0.000   0.0  0.000 621.7  6.165 621.7  2.189 621.7  0.007   0.0  0.000
+23:52:20.841 localhost-0: anchor=/gr12/dir1: Created 62,910 of 1,048,576 files (6.00%)
+23:52:41.076 localhost-0: anchor=/gr12/dir1: Created 73,395 of 1,048,576 files (7.00%)
+23:52:48.014            3  546.6  0.507  31.7 7.05   0.0    0.0  0.000  546.6  0.507  0.00  2.14   2.14    4096   0.0  0.000   0.0  0.000 546.6 15.118 546.7 14.557 546.6  0.007   0.0  0.000
+23:53:00.733 localhost-0: anchor=/gr12/dir1: Created 83,880 of 1,048,576 files (8.00%)
+23:53:18.732            4  567.9  0.494  29.3 6.56   0.0    0.0  0.000  567.9  0.494  0.00  2.22   2.22    4096   0.0  0.000   0.0  0.000 567.9 14.084 567.9 13.520 567.9  0.007   0.0  0.000
+23:53:20.482 localhost-0: anchor=/gr12/dir1: Created 94,365 of 1,048,576 files (9.00%)
+23:53:35.928 localhost-0: anchor=/gr12/dir1: Created 104,850 of 1,048,576 files (10.00%)
+23:53:48.123            5  563.5  2.314  22.4 5.72   0.0    0.0  0.000  563.5  2.314  0.00  2.20   2.20    4096   0.0  0.000   0.0  0.000 563.5 12.975 563.5 10.597 563.5  0.007   0.0  0.000
+23:53:58.030 localhost-0: anchor=/gr12/dir1: Created 115,335 of 1,048,576 files (11.00%)
+23:54:18.034            6  476.4  1.475  29.9 6.70   0.0    0.0  0.000  476.4  1.475  0.00  1.86   1.86    4096   0.0  0.000   0.0  0.000 476.4 18.272 476.4 16.699 476.4  0.010   0.0  0.000
+23:54:18.238 localhost-0: anchor=/gr12/dir1: Created 125,820 of 1,048,576 files (12.00%)
+23:54:40.275 localhost-0: anchor=/gr12/dir1: Created 136,305 of 1,048,576 files (13.00%)
+23:54:48.017            7  538.8  0.484  30.5 6.62   0.0    0.0  0.000  538.8  0.484  0.00  2.10   2.10    4096   0.0  0.000   0.0  0.000 538.8 11.784 539.1 11.222 538.8  0.008   0.0  0.000
+23:55:09.524 localhost-0: anchor=/gr12/dir1: Created 157,275 of 1,048,576 files (15.00%)
+23:55:18.007            8  705.6  4.549  24.8 5.91   0.0    0.0  0.000  705.6  4.549  0.00  2.76   2.76    4096   0.0  0.000   0.0  0.000 705.6 11.332 705.4  6.722 705.6  0.006   0.0  0.000
+23:55:37.416 localhost-0: anchor=/gr12/dir1: Created 178,245 of 1,048,576 files (17.00%)
+23:55:48.010            9  674.9  0.626  29.4 6.73   0.0    0.0  0.000  674.9  0.626  0.00  2.64   2.64    4096   0.0  0.000   0.0  0.000 674.9 11.360 674.9 10.658 674.9  0.008   0.0  0.000
+23:55:56.953 localhost-0: anchor=/gr12/dir1: Created 188,730 of 1,048,576 files (18.00%)
+23:56:18.085           10  444.3  1.018  31.9 6.86   0.0    0.0  0.000  444.3  1.018  0.00  1.74   1.74    4096   0.0  0.000   0.0  0.000 444.3 18.144 444.3 17.052 444.3  0.007   0.0  0.000
+23:56:27.925 localhost-0: anchor=/gr12/dir1: Created 199,215 of 1,048,576 files (19.00%)
+23:56:45.433 localhost-0: anchor=/gr12/dir1: Created 209,700 of 1,048,576 files (20.00%)
+23:56:48.011           11  795.1  1.313  28.5 6.69   0.0    0.0  0.000  795.1  1.313  0.00  3.11   3.11    4096   0.0  0.000   0.0  0.000 795.1 12.301 795.1 10.931 795.1  0.006   0.0  0.000
+23:57:11.994 localhost-0: anchor=/gr12/dir1: Created 230,670 of 1,048,576 files (22.00%)
+23:57:18.009           12  723.7  1.772  33.5 7.23   0.0    0.0  0.000  723.7  1.772  0.00  2.83   2.83    4096   0.0  0.000   0.0  0.000 723.7 10.089 723.7  8.245 723.7  0.007   0.0  0.000
+23:57:43.950 localhost-0: anchor=/gr12/dir1: Created 262,125 of 1,048,576 files (25.00%)
+23:57:48.062           13  694.3  2.751  27.3 6.47   0.0    0.0  0.000  694.3  2.751  0.00  2.71   2.71    4096   0.0  0.000   0.0  0.000 694.3 11.164 694.3  8.356 694.3  0.006   0.0  0.000
+23:58:09.138 localhost-0: anchor=/gr12/dir1: Created 283,095 of 1,048,576 files (27.00%)
+23:58:18.009           14  723.3  0.122  25.7 6.34   0.0    0.0  0.000  723.3  0.122  0.00  2.83   2.83    4096   0.0  0.000   0.0  0.000 723.3  9.308 723.6  9.124 723.3  0.006   0.0  0.000
+23:58:25.195 localhost-0: anchor=/gr12/dir1: Created 293,580 of 1,048,576 files (28.00%)
+23:58:48.067           15  861.5  6.696  26.2 6.75   0.0    0.0  0.000  861.5  6.696  0.00  3.37   3.37    4096   0.0  0.000   0.0  0.000 861.5 11.426 861.2  4.671 861.5  0.006   0.0  0.000
+23:58:55.924 localhost-0: anchor=/gr12/dir1: Created 314,550 of 1,048,576 files (30.00%)
+23:59:14.970 localhost-0: anchor=/gr12/dir1: Created 335,520 of 1,048,576 files (32.00%)
+23:59:18.012           16  898.8  2.870  24.4 6.53   0.0    0.0  0.000  898.8  2.870  0.00  3.51   3.51    4096   0.0  0.000   0.0  0.000 898.8  8.629 899.1  5.701 898.8  0.006   0.0  0.000
+23:59:42.642 localhost-0: anchor=/gr12/dir1: Created 356,490 of 1,048,576 files (34.00%)
+23:59:48.011           17  672.1  3.274  24.6 6.72   0.0    0.0  0.000  672.1  3.274  0.00  2.63   2.63    4096   0.0  0.000   0.0  0.000 672.1 11.200 671.9  7.864 672.1  0.007   0.0  0.000
+00:00:15.215 localhost-0: anchor=/gr12/dir1: Created 377,460 of 1,048,576 files (36.00%)
+00:00:18.007           18  793.0  2.226  24.2 6.22   0.0    0.0  0.000  793.0  2.226  0.00  3.10   3.10    4096   0.0  0.000   0.0  0.000 792.9 11.619 793.0  9.332 793.0  0.006   0.0  0.000
+00:00:35.781 localhost-0: anchor=/gr12/dir1: Created 398,430 of 1,048,576 files (38.00%)
+00:00:48.004           19  966.3  1.966  27.0 7.08   0.0    0.0  0.000  966.3  1.966  0.00  3.77   3.77    4096   0.0  0.000   0.0  0.000 966.4  8.275 966.3  6.257 966.3  0.005   0.0  0.000
+00:01:00.566 localhost-0: anchor=/gr12/dir1: Created 419,400 of 1,048,576 files (40.00%)
+00:01:16.364 localhost-0: anchor=/gr12/dir1: Created 429,885 of 1,048,576 files (41.00%)
+00:01:18.004           20  893.6  1.433  21.2 5.90   0.0    0.0  0.000  893.6  1.433  0.00  3.49   3.49    4096   0.0  0.000   0.0  0.000 893.6  8.932 893.6  7.460 893.6  0.005   0.0  0.000
+00:01:35.800 localhost-0: anchor=/gr12/dir1: Created 450,855 of 1,048,576 files (43.00%)
+00:01:48.017           21  815.7  3.528  20.0 5.71   0.0    0.0  0.000  815.7  3.528  0.00  3.19   3.19    4096   0.0  0.000   0.0  0.000 815.7  6.988 815.9  3.391 815.7  0.007   0.0  0.000
+00:01:57.743 localhost-0: anchor=/gr12/dir1: Created 461,340 of 1,048,576 files (44.00%)
+00:02:18.016           22  697.2  9.904  17.1 5.00   0.0    0.0  0.000  697.2  9.904  0.00  2.72   2.72    4096   0.0  0.000   0.0  0.000 697.2 11.581 697.2  1.636 697.2  0.004   0.0  0.000
+00:02:21.462 localhost-0: anchor=/gr12/dir1: Created 482,310 of 1,048,576 files (46.00%)
+00:02:37.750 localhost-0: anchor=/gr12/dir1: Created 492,795 of 1,048,576 files (47.00%)
+00:02:48.017           23  682.6  4.918  17.8 5.33   0.0    0.0  0.000  682.6  4.918  0.00  2.67   2.67    4096   0.0  0.000   0.0  0.000 682.6 12.547 682.4  7.587 682.6  0.005   0.0  0.000
+00:03:02.046 localhost-0: anchor=/gr12/dir1: Created 513,765 of 1,048,576 files (49.00%)
+00:03:18.005           24  812.3  3.513  18.9 5.59   0.0    0.0  0.000  812.3  3.513  0.00  3.17   3.17    4096   0.0  0.000   0.0  0.000 812.3 11.891 812.2  8.320 812.3  0.006   0.0  0.000
+00:03:28.400 localhost-0: anchor=/gr12/dir1: Created 534,735 of 1,048,576 files (51.00%)
+00:03:48.005           25  934.4  3.731  19.4 5.66   0.0    0.0  0.000  934.4  3.731  0.00  3.65   3.65    4096   0.0  0.000   0.0  0.000 934.4  7.694 934.6  3.918 934.4  0.005   0.0  0.000
+00:03:59.639 localhost-0: anchor=/gr12/dir1: Created 555,705 of 1,048,576 files (53.00%)
+00:04:18.006           26  686.0  5.941  18.7 5.46   0.0    0.0  0.000  686.0  5.941  0.00  2.68   2.68    4096   0.0  0.000   0.0  0.000 686.0 10.546 685.8  4.561 686.0  0.005   0.0  0.000
+00:04:21.805 localhost-0: anchor=/gr12/dir1: Created 576,675 of 1,048,576 files (55.00%)
+00:04:47.064 localhost-0: anchor=/gr12/dir1: Created 597,645 of 1,048,576 files (57.00%)
+00:04:48.005           27  750.9  3.007  18.9 5.41   0.0    0.0  0.000  750.9  3.007  0.00  2.93   2.93    4096   0.0  0.000   0.0  0.000 750.9 12.443 751.2  9.387 750.9  0.005   0.0  0.000
+00:05:18.007           28  535.6  6.734  24.6 6.34   0.0    0.0  0.000  535.6  6.734  0.00  2.09   2.09    4096   0.0  0.000   0.0  0.000 535.6 11.966 535.3  5.181 535.6  0.006   0.0  0.000
+00:05:19.105 localhost-0: anchor=/gr12/dir1: Created 618,615 of 1,048,576 files (59.00%)
+00:05:48.007           29  755.1  2.905  33.5 8.06   0.0    0.0  0.000  755.1  2.905  0.00  2.95   2.95    4096   0.0  0.000   0.0  0.000 755.1 10.072 755.1  7.099 755.1  0.007   0.0  0.000
+00:05:53.963 localhost-0: anchor=/gr12/dir1: Created 639,585 of 1,048,576 files (61.00%)
+00:06:18.014           30  704.7  2.308  36.8 8.82   0.0    0.0  0.000  704.7  2.308  0.00  2.75   2.75    4096   0.0  0.000   0.0  0.000 704.7 12.315 704.7  9.932 704.7  0.008   0.0  0.000
+00:06:21.959 localhost-0: anchor=/gr12/dir1: Created 660,555 of 1,048,576 files (63.00%)
+00:06:45.675 localhost-0: anchor=/gr12/dir1: Created 681,525 of 1,048,576 files (65.00%)
+Nov 25, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+00:06:48.050           31  835.4  1.650  42.9 9.92   0.0    0.0  0.000  835.4  1.650  0.00  3.26   3.26    4096   0.0  0.000   0.0  0.000 835.4 10.745 835.4  9.001 835.4  0.010   0.0  0.000
+00:07:10.501 localhost-0: anchor=/gr12/dir1: Created 702,495 of 1,048,576 files (67.00%)
+00:07:18.019           32  665.1  4.254  36.7 8.14   0.0    0.0  0.000  665.1  4.254  0.00  2.60   2.60    4096   0.0  0.000   0.0  0.000 665.1  9.888 665.1  5.560 665.1  0.007   0.0  0.000
+00:07:37.952 localhost-0: anchor=/gr12/dir1: Created 712,980 of 1,048,576 files (68.00%)
+00:07:48.009           33  669.1  2.547  37.2 8.04   0.0    0.0  0.000  669.1  2.547  0.00  2.61   2.61    4096   0.0  0.000   0.0  0.000 669.1 12.674 669.1 10.058 669.1  0.007   0.0  0.000
+00:08:03.965 localhost-0: anchor=/gr12/dir1: Created 733,950 of 1,048,576 files (69.99%)
+00:08:18.031           34 1005.8  6.502  38.5 8.51   0.0    0.0  0.000 1005.8  6.502  0.00  3.93   3.93    4096   0.0  0.000   0.0  0.000  1005  9.458  1005  2.888  1005  0.007   0.0  0.000
+00:08:33.615 localhost-0: anchor=/gr12/dir1: Created 754,920 of 1,048,576 files (71.99%)
+00:08:48.022           35  413.2  0.074  35.8 7.83   0.0    0.0  0.000  413.2  0.074  0.00  1.61   1.61    4096   0.0  0.000   0.0  0.000 413.2 11.029 413.4 10.884 413.2  0.009   0.0  0.000
+00:08:51.136 localhost-0: anchor=/gr12/dir1: Created 775,890 of 1,048,576 files (73.99%)
+00:09:09.438 localhost-0: anchor=/gr12/dir1: Created 786,375 of 1,048,576 files (74.99%)
+00:09:18.005           36  909.4  6.035  34.3 8.02   0.0    0.0  0.000  909.4  6.035  0.00  3.55   3.55    4096   0.0  0.000   0.0  0.000 909.4 10.972 909.1  4.872 909.4  0.007   0.0  0.000
+00:09:33.922 localhost-0: anchor=/gr12/dir1: Created 807,345 of 1,048,576 files (76.99%)
+00:09:48.201           37  890.3  0.814  31.4 7.34   0.0    0.0  0.000  890.3  0.814  0.00  3.48   3.48    4096   0.0  0.000   0.0  0.000 890.3 10.685 890.2  9.808 890.3  0.007   0.0  0.000
+00:10:03.739 localhost-0: anchor=/gr12/dir1: Created 828,315 of 1,048,576 files (78.99%)
+00:10:18.016           38  685.6  2.752  34.7 8.01   0.0    0.0  0.000  685.6  2.752  0.00  2.68   2.68    4096   0.0  0.000   0.0  0.000 685.6 10.293 685.6  7.477 685.6  0.007   0.0  0.000
+00:10:28.272 localhost-0: anchor=/gr12/dir1: Created 849,285 of 1,048,576 files (80.99%)
+00:10:46.583 localhost-0: anchor=/gr12/dir1: Created 859,770 of 1,048,576 files (81.99%)
+00:10:48.007           39  844.7  5.193  32.4 7.76   0.0    0.0  0.000  844.7  5.193  0.00  3.30   3.30    4096   0.0  0.000   0.0  0.000 844.7 10.386 844.7  5.137 844.7  0.006   0.0  0.000
+00:11:11.216 localhost-0: anchor=/gr12/dir1: Created 880,740 of 1,048,576 files (83.99%)
+00:11:18.017           40  703.0  3.537  30.0 7.35   0.0    0.0  0.000  703.0  3.537  0.00  2.75   2.75    4096   0.0  0.000   0.0  0.000 703.0 10.609 703.0  7.004 703.0  0.007   0.0  0.000
+00:11:29.869 localhost-0: anchor=/gr12/dir1: Created 891,225 of 1,048,576 files (84.99%)
+00:11:46.196 localhost-0: anchor=/gr12/dir1: Created 912,195 of 1,048,576 files (86.99%)
+00:11:48.006           41  875.2  0.590  37.0 8.69   0.0    0.0  0.000  875.2  0.590  0.00  3.42   3.42    4096   0.0  0.000   0.0  0.000 875.2  9.336 875.3  8.648 875.2  0.008   0.0  0.000
+00:12:15.826 localhost-0: anchor=/gr12/dir1: Created 933,165 of 1,048,576 files (88.99%)
+00:12:18.008           42  828.5  1.340  33.3 8.23   0.0    0.0  0.000  828.5  1.340  0.00  3.24   3.24    4096   0.0  0.000   0.0  0.000 828.5 10.211 828.4  8.800 828.5  0.008   0.0  0.000
+00:12:37.038 localhost-0: anchor=/gr12/dir1: Created 943,650 of 1,048,576 files (89.99%)
+00:12:48.017           43  876.6  6.001  32.7 8.13   0.0    0.0  0.000  876.6  6.001  0.00  3.42   3.42    4096   0.0  0.000   0.0  0.000 876.6  8.903 876.7  2.829 876.6  0.007   0.0  0.000
+00:13:00.977 localhost-0: anchor=/gr12/dir1: Created 964,620 of 1,048,576 files (91.99%)
+00:13:18.007           44  693.4  5.601  32.9 7.90   0.0    0.0  0.000  693.4  5.601  0.00  2.71   2.71    4096   0.0  0.000   0.0  0.000 693.4 10.650 693.3  4.983 693.4  0.007   0.0  0.000
+00:13:31.537 localhost-0: anchor=/gr12/dir1: Created 985,590 of 1,048,576 files (93.99%)
+00:13:48.009           45  697.0  3.042  34.0 8.24   0.0    0.0  0.000  697.0  3.042  0.00  2.72   2.72    4096   0.0  0.000   0.0  0.000 697.0 10.774 697.1  7.649 697.0  0.008   0.0  0.000
+00:14:00.649 localhost-0: anchor=/gr12/dir1: Created 1,006,560 of 1,048,576 files (95.99%)
+00:14:18.006           46  688.7  2.693  36.2 8.14   0.0    0.0  0.000  688.7  2.693  0.00  2.69   2.69    4096   0.0  0.000   0.0  0.000 688.7 13.045 688.6 10.246 688.7  0.008   0.0  0.000
+00:14:27.956 localhost-0: anchor=/gr12/dir1: Created 1,027,530 of 1,048,576 files (97.99%)
+00:14:48.006           47  497.2  0.684  36.3 7.97   0.0    0.0  0.000  497.2  0.684  0.00  1.94   1.94    4096   0.0  0.000   0.0  0.000 497.2 12.067 497.3 11.297 497.2  0.008   0.0  0.000
+00:14:52.445 localhost-0: anchor=/gr12/dir1: Created 1,048,500 of 1,048,576 files (99.99%)
+00:14:52.508 localhost-0: anchor=/gr12/dir1 create complete.
+00:14:55.008           48  253.2  1.630  44.9 9.94   0.0    0.0  0.000  253.2  1.630  0.00  0.99   0.99    4096   0.0  0.000   0.0  0.000 253.2 13.843 253.2 12.126 253.2  0.008   0.0  0.000
+00:14:55.015     avg_2-48  714.2  3.139  29.3 7.08   0.0    0.0  0.000  714.2  3.139  0.00  2.79   2.79    4096   0.0  0.000   0.0  0.000 714.2 10.880 714.2  7.676 714.2  0.007   0.0  0.000
+00:14:55.016     std_2-48  158.4 168.84                                 158.4 168.84                                                      158.5 284.10 158.3 228.46 158.4  0.035             
+00:14:55.017     max_2-48 1005.0  18359                                1005.0  18359                                   6.034               1005  18360  1005  17419  1005 33.024             
+00:14:56.686 
+00:14:56.686 Miscellaneous statistics:
+00:14:56.686 (These statistics do not include activity between the last reported interval and shutdown.)
+00:14:56.686 FILE_CREATES        Files created:                            1,048,576        728/sec
+00:14:56.686 DIRECTORY_CREATES   Directories created:                             64          0/sec
+00:14:56.686 WRITE_OPENS         Files opened for write activity:          1,048,576        728/sec
+00:14:56.686 FILE_CLOSES         Close requests:                           1,048,576        728/sec
+00:14:56.686 
+00:14:56.686 Flushing all reports
+00:14:56.705 Java Heap in MB. max:  512.000; current:   66.000; used:   44.786; free:   21.214
+00:14:56.936 slv=localhost-0 fwd=fwd1 fsd=fsd1 anchor=/gr12/dir1 threads=64 skew= 0.00 operation=read 
+00:14:56.937 Dedup options: 
+dedup_type:                            1
+dedup_ratio:                       20.00
+dedup_unit:                        4,096
+flipflop:                             no
+hot_dedup_sets:                        0
+hot_dedup_blocks:                      0
+dedup_sets_reqd:                      5%
+dedup_sets_used:                  52,428
+
+unique_blocks:                         0
+duplicate_blocks:              1,048,576 (including 52,428 originals)
+dedup_pct:                          5.00
+dedup_adjusted:                     0.00
+total_size:                           4g
+unit_blocks:                   1,048,576
+
+Info only reliable if xfersize is multiple of dedupunit:
+uniques_written:                       0; expected 0; delta 0 
+duplicates_written:                    0; expected 1,048,576; delta -1,048,576 
+Total writes:                          0; delta -1,048,576
+flipflops:                             0
+
+Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+Dsim counts: Duplicates:         996,148
+Dsim counts: Ratio:                20.00 (20.00031)
+
+00:14:56.962 Waiting for synchronization of all slaves
+00:14:57.763 Synchronization of all slaves complete
+
+<a name="_1156060786"></a><i><b>00:14:58.001 Starting RD=rd1; elapsed=60; fwdrate=max. For loops: None</b></i>
+
+Nov 25, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+00:15:28.012            1  109.8  0.595  33.3 7.02   0.0    0.0  0.000  109.8  0.595  0.00  0.43   0.43    4096   0.0  0.000   0.0  0.000   0.0  0.000 109.8 498.86 109.8  0.024   0.0  0.000
+00:15:58.005            2   97.9 14.810  29.9 6.67   0.0    0.0  0.000   97.9 14.810  0.00  0.38   0.38    4096   0.0  0.000   0.0  0.000   0.0  0.000  97.9 629.82  97.9  0.025   0.0  0.000
+00:15:58.009      avg_2-2   97.9 14.810  29.9 6.67   0.0    0.0  0.000   97.9 14.810  0.00  0.38   0.38    4096   0.0  0.000   0.0  0.000   0.0  0.000  97.9 629.82  97.9  0.025   0.0  0.000
+00:15:58.010      std_2-2                                                     43.202                                                                         2198.9        0.013             
+00:15:58.010      max_2-2                                                97.0 366.95                                                                    97.0  19966  97.0  0.321             
+00:16:13.193 
+00:16:13.193 Message from slave localhost-0: 
+00:16:13.193 task_wait_all(): Waiting 15 seconds for active threads to complete: 
+00:16:13.193 FwgThread read /gr12/dir1 4: 6 threads
+00:16:15.146 
+00:16:15.146 Miscellaneous statistics:
+00:16:15.146 (These statistics do not include activity between the last reported interval and shutdown.)
+00:16:15.146 WRITE_OPENS         Files opened for write activity:              6,232        103/sec
+00:16:15.146 FILE_CLOSES         Close requests:                               6,232        103/sec
+00:16:15.146 
+00:16:15.146 Flushing all reports
+00:16:15.146 Java Heap in MB. max:  512.000; current:   66.000; used:   25.306; free:   40.694
+00:16:15.171 Ending Reporter
+00:16:15.295 Vdbench execution completed successfully. Output directory: /home/imperial_lord/Downloads/Assignment-4/vdbench/group12_output_dedup 
+
+00:16:16.521 Java Heap in MB. max:  512.000; current:   66.000; used:   19.669; free:   46.331

@@ -1,0 +1,105 @@
+<title>Vdbench group12_output_comp/localhost-0.stdout.html</title><pre>
+stdout/stderr for slave=localhost-0
+
+16:08:52.986 16:08:52.985 SlaveJvm execution parameter:  '-m localhost'
+16:08:52.987 16:08:52.986 SlaveJvm execution parameter:  '-n localhost-10-201125-16.08.52.653'
+16:08:52.987 16:08:52.986 SlaveJvm execution parameter:  '-l localhost-0'
+16:08:52.987 16:08:52.986 SlaveJvm execution parameter:  '-p 5576'
+16:08:52.987 16:08:52.986 SlaveJvm positional parameter: 'SlaveJvm'
+16:08:53.053 16:08:53.052 successfully connected to master localhost
+16:08:53.053 16:08:53.053 Connection to localhost using port 5576 successful
+16:08:54.216 16:08:54.216 ticks_per_second: 100
+16:08:54.245 16:08:54.245 execute(): ls -l /gr12/dir1
+16:08:54.258 16:08:54.257 Configuration interpretation took 0.04 seconds
+
+Link to Run Definitions:         <A HREF="#_1359044626">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_692342133">rd1 For loops: None</A>
+
+16:08:54.465 16:08:54.464 Beginning of run setup
+16:08:54.465 16:08:54.464 File '/var/log/messages' does not exist. Monitoring bypassed
+16:08:54.465 16:08:54.465 **********************
+16:08:54.466 
+16:08:54.466 
+16:08:54.466 16:08:54.465 File '/var/log/messages.1' does not exist. Monitoring bypassed
+16:08:54.532 16:08:54.531 Deleting old file structure.
+16:08:54.532 16:08:54.532 Starting initializeFileAnchor for rd=format_for_rd1 For loops: None anchor=fsd1
+16:08:54.537 16:08:54.537 Completed the creation of the directory list for /gr12/dir1: 64 directories.
+16:08:54.545 16:08:54.545 Generated 32,768 file names; total anchor size: 4g (4,294,967,296)
+16:08:54.546 16:08:54.545 Writing control file for anchor=/gr12/dir1 at start of run.
+16:08:54.566 16:08:54.566 Completed control file for anchor=/gr12/dir1 at start of run.  dirs: 64/0 files: 32768/0 sizes: 4g/0/0/0
+16:08:54.569 16:08:54.569 Completed initializeFileAnchor for fsd1: 0.04
+16:08:54.587 16:08:54.587 Started 8 threads for fwd=format,fsd=fsd1
+16:08:54.587 16:08:54.587 Started 8 FwgThreads for rd=format_for_rd1 For loops: None
+16:08:54.587 16:08:54.587 Waiting for task synchronization
+16:08:54.588 16:08:54.587 Requesting full garbage collection
+16:08:54.588 16:08:54.588 GcTracker: cum:   0 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   130 used:    34 free:    96 
+16:08:54.604 16:08:54.603 GcTracker: cum:   1 intv:  1 ms:      12 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    23 free:   105 
+16:08:54.604 16:08:54.603 task_wait_start_complete() end
+
+<a name="_1359044626"></a><i><b>16:08:55.004 Starting RD=format_for_rd1</b></i>
+
+16:08:55.014 16:08:55.013 task_run_all(): 9 tasks
+16:08:57.836 16:08:57.834 Message to master: anchor=/gr12/dir1 mkdir complete.
+16:09:14.999 16:09:14.999 Message to master: anchor=/gr12/dir1: Created 7,848 of 32,768 files (23.95%)
+16:09:30.839 16:09:30.836 Message to master: anchor=/gr12/dir1: Created 13,080 of 32,768 files (39.92%)
+16:09:45.944 16:09:45.944 Message to master: anchor=/gr12/dir1: Created 16,677 of 32,768 files (50.89%)
+16:10:01.310 16:10:01.308 Message to master: anchor=/gr12/dir1: Created 22,236 of 32,768 files (67.86%)
+16:10:17.111 16:10:17.111 Message to master: anchor=/gr12/dir1: Created 26,814 of 32,768 files (81.83%)
+16:10:35.398 16:10:35.397 Message to master: anchor=/gr12/dir1: Created 30,738 of 32,768 files (93.80%)
+16:10:38.723 16:10:38.723 Message to master: anchor=/gr12/dir1 create complete.
+16:10:38.842 16:10:38.841 
+16:10:38.843 16:10:38.842 Miscellaneous statistics:
+16:10:38.843 16:10:38.843 FILE_CREATES        Files created:                               32,768
+16:10:38.844 16:10:38.844 DIRECTORY_CREATES   Directories created:                             64
+16:10:38.845 16:10:38.844 FILE_DELETES        Files deleted:                               32,768
+16:10:38.845 16:10:38.845 DIRECTORY_DELETES   Directories deleted:                             64
+16:10:38.846 16:10:38.845 WRITE_OPENS         Files opened for write activity:             32,768
+16:10:38.846 16:10:38.846 FILE_CLOSES         Close requests:                              32,768
+16:10:38.847 16:10:38.846 
+16:10:38.848 16:10:38.847 Java Heap in MB. max: 1024.000; current:  128.000; used:   75.780; free:   52.220
+16:10:38.848 16:10:38.848 Maximum native memory allocation:    1,048,576; Current allocation:    1,048,576
+16:10:39.199 16:10:39.199 Writing control file for anchor=/gr12/dir1 at end of run.
+16:10:39.832 16:10:39.831 Completed control file for anchor=/gr12/dir1 at end of run.  dirs: 64/64 files: 32768/32768 sizes: 4g/4g/32768/4g
+16:10:39.832 16:10:39.832 End of run
+16:10:39.833 16:10:39.832 **********
+16:10:39.833 
+16:10:39.833 
+16:10:40.723 16:10:40.722 Beginning of run setup
+16:10:40.723 16:10:40.723 **********************
+16:10:40.723 
+16:10:40.723 
+16:10:40.759 16:10:40.758 Starting initializeFileAnchor for rd=rd1 For loops: None anchor=fsd1
+16:10:40.760 16:10:40.760 Reading control file for anchor=/gr12/dir1
+16:10:40.761 16:10:40.761 Completed reading control file.
+16:10:40.762 16:10:40.762 Completed the creation of the directory list for /gr12/dir1: 64 directories.
+16:10:40.772 16:10:40.772 Generated 32,768 file names; total anchor size: 4g (4,294,967,296)
+16:10:40.772 16:10:40.772 No deletes and creates. Control file not cleared.
+16:10:40.772 16:10:40.772 During anchor creation for anchor=/gr12/dir1 there were 64 directories and 32768 files
+16:10:40.772 16:10:40.772 Completed initializeFileAnchor for fsd1: 0.01
+16:10:40.846 16:10:40.846 Started 64 threads for fwd=fwd1,fsd=fsd1,operation=read
+16:10:40.846 16:10:40.846 Started 64 FwgThreads for rd=rd1 For loops: None
+16:10:40.846 16:10:40.846 Waiting for task synchronization
+16:10:40.846 16:10:40.846 Requesting full garbage collection
+16:10:40.847 16:10:40.846 GcTracker: cum:   3 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    86 free:    42 
+16:10:40.862 16:10:40.861 GcTracker: cum:   4 intv:  1 ms:      14 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    29 free:    99 
+16:10:40.862 16:10:40.861 task_wait_start_complete() end
+
+<a name="_692342133"></a><i><b>16:10:41.002 Starting RD=rd1; elapsed=60; fwdrate=max. For loops: None</b></i>
+
+16:10:41.007 16:10:41.006 task_run_all(): 65 tasks
+16:11:42.145 16:11:42.144 
+16:11:42.145 16:11:42.144 Miscellaneous statistics:
+16:11:42.145 16:11:42.145 WRITE_OPENS         Files opened for write activity:             10,628
+16:11:42.145 16:11:42.145 FILE_BUSY           File busy:                                       14
+16:11:42.146 16:11:42.145 FILE_CLOSES         Close requests:                              10,628
+16:11:42.146 16:11:42.145 
+16:11:42.146 16:11:42.146 Java Heap in MB. max: 1024.000; current:  128.000; used:   83.303; free:   44.697
+16:11:42.147 16:11:42.146 Maximum native memory allocation:   34,603,008; Current allocation:   33,554,432
+16:11:42.148 16:11:42.147 Writing control file for anchor=/gr12/dir1 at end of run.
+16:11:42.845 16:11:42.844 Completed control file for anchor=/gr12/dir1 at end of run.  dirs: 64/64 files: 32768/32768 sizes: 4g/4g/9093/1.110g
+16:11:42.846 16:11:42.845 End of run
+16:11:42.846 16:11:42.846 **********
+16:11:42.846 
+16:11:42.846 
+16:11:43.392 16:11:43.391 Master is requesting slave shutdown
+16:11:43.392 16:11:43.392 Java Heap in MB. max: 1024.000; current:  128.000; used:   84.530; free:   43.470

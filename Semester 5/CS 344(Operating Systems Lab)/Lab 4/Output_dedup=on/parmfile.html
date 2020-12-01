@@ -1,0 +1,16 @@
+<title>Vdbench group12_output_dedup/parmfile.html</title><pre>
+
+* Contents of parameter file: /home/imperial_lord/Downloads/Assignment-4/vdbench/source_dedup
+
+dedupratio=20
+dedupunit=4k
+fsd=fsd1,anchor=!fanchor,depth=!dirdep,width=!dirwid,files=!numfiles,size=!filesize
+    variable substitution: fsd=fsd1,anchor=/gr12/dir1,depth=1,width=64,files=16384,size=4k
+fwd=fwd1,fsd=fsd1,rdpct=!filrdpct,xfersize=!fxfersize,fileselect=random,fileio=random,threads=!thrds
+    variable substitution: fwd=fwd1,fsd=fsd1,rdpct=0,xfersize=4k,fileselect=random,fileio=random,threads=64
+rd=rd1,fwd=fwd1,fwdrate=max,format=yes,elapsed=!etime,interval=!itime
+    variable substitution: rd=rd1,fwd=fwd1,fwdrate=max,format=yes,elapsed=1m,interval=30
+
+* Command line argument used for testing deduplication 
+*
+*./vdbench -f source_dedup fanchor=/gr12/dir1 dirwid=64 numfiles=16384 filesize=4k fxfersize=4k thrds=64 etime=1m itime=30 dirdep=1 filrdpct=0 -p 5576 -o group12_output_dedup

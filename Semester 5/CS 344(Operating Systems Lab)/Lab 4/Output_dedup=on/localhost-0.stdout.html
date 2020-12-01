@@ -1,0 +1,287 @@
+<title>Vdbench group12_output_dedup/localhost-0.stdout.html</title><pre>
+stdout/stderr for slave=localhost-0
+
+19:24:35.634 19:24:35.634 SlaveJvm execution parameter:  '-m localhost'
+19:24:35.635 19:24:35.634 SlaveJvm execution parameter:  '-n localhost-10-201124-19.24.34.795'
+19:24:35.636 19:24:35.634 SlaveJvm execution parameter:  '-l localhost-0'
+19:24:35.636 19:24:35.634 SlaveJvm execution parameter:  '-p 5576'
+19:24:35.636 19:24:35.634 SlaveJvm positional parameter: 'SlaveJvm'
+19:24:35.709 19:24:35.708 successfully connected to master localhost
+19:24:35.709 19:24:35.709 Connection to localhost using port 5576 successful
+19:24:37.208 19:24:37.208 ticks_per_second: 100
+19:24:37.230 19:24:37.230 execute(): ls -l /gr12/dir1
+19:24:37.360 19:24:37.359 Configuration interpretation took 0.14 seconds
+
+Link to Run Definitions:         <A HREF="#_1338823963">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_1156060786">rd1 For loops: None</A>
+
+19:24:37.815 19:24:37.814 Beginning of run setup
+19:24:37.815 19:24:37.815 **********************
+19:24:37.816 
+19:24:37.816 
+19:24:37.829 19:24:37.829 File '/var/log/messages' does not exist. Monitoring bypassed
+19:24:37.830 19:24:37.829 File '/var/log/messages.1' does not exist. Monitoring bypassed
+19:24:37.863 19:24:37.863 Deleting old file structure.
+19:24:37.864 19:24:37.864 Starting initializeFileAnchor for rd=format_for_rd1 For loops: None anchor=fsd1
+19:24:37.874 19:24:37.874 Completed the creation of the directory list for /gr12/dir1: 64 directories.
+19:24:37.983 19:24:37.982 Generated 1,048,576 file names; total anchor size: 4g (4,294,967,296)
+19:24:37.985 19:24:37.984 Created flipflop bitmap for fsd1. 1 bitmaps for a total of 1,048,576 bits.
+19:24:37.985 19:24:37.985 Creating bitmap for unique blocks for fsd=fsd1. 1 bitmaps for a total of 1,048,576 bits, identifying 0 unique blocks
+19:24:37.989 19:24:37.988 Writing control file for anchor=/gr12/dir1 at start of run.
+19:24:38.058 19:24:38.058 Completed control file for anchor=/gr12/dir1 at start of run.  dirs: 64/0 files: 1048576/0 sizes: 4g/0/0/0
+19:24:38.061 19:24:38.061 Completed initializeFileAnchor for fsd1: 0.20
+19:24:38.081 19:24:38.080 Started 8 threads for fwd=format,fsd=fsd1
+19:24:38.081 19:24:38.081 Started 8 FwgThreads for rd=format_for_rd1 For loops: None
+19:24:38.081 19:24:38.081 Waiting for task synchronization
+19:24:38.081 19:24:38.081 Requesting full garbage collection
+19:24:38.082 19:24:38.082 GcTracker: cum:   6 intv:  6 ms:      45 mss:  0.00% Heap_MB max:  1024 curr:   130 used:   105 free:    25 
+19:24:38.149 19:24:38.149 GcTracker: cum:   7 intv:  1 ms:      66 mss:  0.00% Heap_MB max:  1024 curr:   167 used:    98 free:    69 
+19:24:38.150 19:24:38.149 task_wait_start_complete() end
+
+<a name="_1338823963"></a><i><b>19:24:39.002 Starting RD=format_for_rd1</b></i>
+
+19:24:39.004 19:24:39.004 task_run_all(): 9 tasks
+19:25:09.990 19:25:09.989 Message to master: anchor=/gr12/dir1 deleted 13536 files; 437/sec
+19:25:41.419 19:25:41.418 Message to master: anchor=/gr12/dir1 deleted 21042 files; 337/sec
+19:26:19.849 19:26:19.848 Message to master: anchor=/gr12/dir1 deleted 27999 files; 277/sec
+19:27:02.934 19:27:02.933 Message to master: anchor=/gr12/dir1 deleted 35984 files; 250/sec
+19:27:09.681 19:27:09.681 deletePendingLevel1Directories: it took  150 seconds to clean up vdb.1_19.dir 
+19:27:10.095 19:27:10.095 deletePendingLevel1Directories: it took  150 seconds to clean up vdb.1_18.dir 
+19:27:10.200 19:27:10.199 deletePendingLevel1Directories: it took  150 seconds to clean up vdb.1_2.dir 
+19:29:14.415 19:29:14.414 Message to master: anchor=/gr12/dir1 deleted 132087 files; 479/sec
+19:29:25.960 19:29:25.960 deletePendingLevel1Directories: it took  286 seconds to clean up vdb.1_17.dir 
+19:29:27.032 19:29:27.032 deletePendingLevel1Directories: it took  287 seconds to clean up vdb.1_10.dir 
+19:29:27.103 19:29:27.102 deletePendingLevel1Directories: it took  288 seconds to clean up vdb.1_16.dir 
+19:29:28.561 19:29:28.560 deletePendingLevel1Directories: it took  289 seconds to clean up vdb.1_13.dir 
+19:29:28.757 19:29:28.757 deletePendingLevel1Directories: it took  289 seconds to clean up vdb.1_11.dir 
+19:29:32.196 19:29:32.195 deletePendingLevel1Directories: it took  142 seconds to clean up vdb.1_8.dir 
+19:29:32.364 19:29:32.363 deletePendingLevel1Directories: it took  142 seconds to clean up vdb.1_3.dir 
+19:29:44.418 19:29:44.417 Message to master: anchor=/gr12/dir1 deleted 288755 files; 945/sec
+19:30:32.833 19:30:32.832 Message to master: anchor=/gr12/dir1 deleted 289998 files; 819/sec
+19:32:47.505 19:32:47.505 Message to master: anchor=/gr12/dir1 deleted 290769 files; 595/sec
+19:36:01.495 19:36:01.494 Message to master: anchor=/gr12/dir1 deleted 290841 files; 426/sec
+19:36:05.003 19:36:05.003 deletePendingLevel1Directories: it took  386 seconds to clean up vdb.1_12.dir 
+19:36:05.529 19:36:05.529 deletePendingLevel1Directories: it took  390 seconds to clean up vdb.1_15.dir 
+19:36:07.001 19:36:07.001 deletePendingLevel1Directories: it took  389 seconds to clean up vdb.1_14.dir 
+19:36:07.141 19:36:07.141 Erasing Data Validation map: fsd1
+19:36:07.144 19:36:07.143 Erasing Data Validation map: fsd1
+19:36:07.144 19:36:07.143 Erasing Data Validation map: fsd1
+19:36:07.144 19:36:07.144 Erasing Data Validation map: fsd1
+19:36:07.149 19:36:07.148 Erasing Data Validation map: fsd1
+19:36:07.149 19:36:07.148 Erasing Data Validation map: fsd1
+19:36:07.150 19:36:07.149 Erasing Data Validation map: fsd1
+19:36:07.154 19:36:07.152 Erasing Data Validation map: fsd1
+19:36:07.795 19:36:07.795 Message to master: anchor=/gr12/dir1 mkdir complete.
+19:39:47.167 19:39:47.166 Message to master: anchor=/gr12/dir1: Created 10,485 of 1,048,576 files (1.00%)
+19:40:58.885 19:40:58.884 Message to master: anchor=/gr12/dir1: Created 20,970 of 1,048,576 files (2.00%)
+19:41:49.100 19:41:49.100 Message to master: anchor=/gr12/dir1: Created 31,455 of 1,048,576 files (3.00%)
+19:42:32.085 19:42:32.085 Message to master: anchor=/gr12/dir1: Created 41,940 of 1,048,576 files (4.00%)
+19:43:34.943 19:43:34.942 Message to master: anchor=/gr12/dir1: Created 52,425 of 1,048,576 files (5.00%)
+19:44:34.443 19:44:34.443 Message to master: anchor=/gr12/dir1: Created 62,910 of 1,048,576 files (6.00%)
+19:46:06.600 19:46:06.600 Message to master: anchor=/gr12/dir1: Created 73,395 of 1,048,576 files (7.00%)
+19:47:12.673 19:47:12.673 Message to master: anchor=/gr12/dir1: Created 83,880 of 1,048,576 files (8.00%)
+19:48:05.052 19:48:05.051 Message to master: anchor=/gr12/dir1: Created 94,365 of 1,048,576 files (9.00%)
+19:49:30.675 19:49:30.674 Message to master: anchor=/gr12/dir1: Created 104,850 of 1,048,576 files (10.00%)
+19:50:33.868 19:50:33.867 Message to master: anchor=/gr12/dir1: Created 115,335 of 1,048,576 files (11.00%)
+19:50:49.884 19:50:49.883 Message to master: anchor=/gr12/dir1: Created 125,820 of 1,048,576 files (12.00%)
+19:51:52.818 19:51:52.818 Message to master: anchor=/gr12/dir1: Created 136,305 of 1,048,576 files (13.00%)
+19:52:41.664 19:52:41.664 Message to master: anchor=/gr12/dir1: Created 146,790 of 1,048,576 files (14.00%)
+19:53:00.058 19:53:00.058 Message to master: anchor=/gr12/dir1: Created 157,275 of 1,048,576 files (15.00%)
+19:53:26.552 19:53:26.552 Message to master: anchor=/gr12/dir1: Created 167,760 of 1,048,576 files (16.00%)
+19:54:00.459 19:54:00.459 Message to master: anchor=/gr12/dir1: Created 178,245 of 1,048,576 files (17.00%)
+19:54:30.002 19:54:30.001 Message to master: anchor=/gr12/dir1: Created 188,730 of 1,048,576 files (18.00%)
+19:55:10.947 19:55:10.946 Message to master: anchor=/gr12/dir1: Created 199,215 of 1,048,576 files (19.00%)
+19:55:50.760 19:55:50.760 Message to master: anchor=/gr12/dir1: Created 209,700 of 1,048,576 files (20.00%)
+19:56:19.877 19:56:19.877 Message to master: anchor=/gr12/dir1: Created 220,185 of 1,048,576 files (21.00%)
+19:56:41.720 19:56:41.720 Message to master: anchor=/gr12/dir1: Created 230,670 of 1,048,576 files (22.00%)
+19:57:13.200 19:57:13.200 Message to master: anchor=/gr12/dir1: Created 241,155 of 1,048,576 files (23.00%)
+19:57:51.177 19:57:51.175 Message to master: anchor=/gr12/dir1: Created 251,640 of 1,048,576 files (24.00%)
+19:58:56.750 19:58:56.749 Message to master: anchor=/gr12/dir1: Created 272,610 of 1,048,576 files (26.00%)
+19:59:36.805 19:59:36.804 Message to master: anchor=/gr12/dir1: Created 283,095 of 1,048,576 files (27.00%)
+20:00:01.519 20:00:01.519 Message to master: anchor=/gr12/dir1: Created 293,580 of 1,048,576 files (28.00%)
+20:00:35.248 20:00:35.248 Message to master: anchor=/gr12/dir1: Created 304,065 of 1,048,576 files (29.00%)
+20:01:14.327 20:01:14.326 Message to master: anchor=/gr12/dir1: Created 314,550 of 1,048,576 files (30.00%)
+20:01:41.093 20:01:41.093 Message to master: anchor=/gr12/dir1: Created 325,035 of 1,048,576 files (31.00%)
+20:02:05.504 20:02:05.503 Message to master: anchor=/gr12/dir1: Created 335,520 of 1,048,576 files (32.00%)
+20:02:32.364 20:02:32.363 Message to master: anchor=/gr12/dir1: Created 346,005 of 1,048,576 files (33.00%)
+20:03:09.929 20:03:09.928 Message to master: anchor=/gr12/dir1: Created 356,490 of 1,048,576 files (34.00%)
+20:03:36.271 20:03:36.271 Message to master: anchor=/gr12/dir1: Created 366,975 of 1,048,576 files (35.00%)
+20:04:10.449 20:04:10.448 Message to master: anchor=/gr12/dir1: Created 377,460 of 1,048,576 files (36.00%)
+20:04:35.049 20:04:35.049 Message to master: anchor=/gr12/dir1: Created 387,945 of 1,048,576 files (37.00%)
+20:05:13.176 20:05:13.176 Message to master: anchor=/gr12/dir1: Created 398,430 of 1,048,576 files (38.00%)
+20:05:46.438 20:05:46.438 Message to master: anchor=/gr12/dir1: Created 408,915 of 1,048,576 files (39.00%)
+20:06:16.276 20:06:16.276 Message to master: anchor=/gr12/dir1: Created 419,400 of 1,048,576 files (40.00%)
+20:07:01.191 20:07:01.190 Message to master: anchor=/gr12/dir1: Created 429,885 of 1,048,576 files (41.00%)
+20:07:31.401 20:07:31.401 Message to master: anchor=/gr12/dir1: Created 440,370 of 1,048,576 files (42.00%)
+20:08:06.134 20:08:06.133 Message to master: anchor=/gr12/dir1: Created 450,855 of 1,048,576 files (43.00%)
+20:08:46.093 20:08:46.093 Message to master: anchor=/gr12/dir1: Created 461,340 of 1,048,576 files (44.00%)
+20:09:22.461 20:09:22.461 Message to master: anchor=/gr12/dir1: Created 471,825 of 1,048,576 files (45.00%)
+20:09:46.336 20:09:46.335 Message to master: anchor=/gr12/dir1: Created 482,310 of 1,048,576 files (46.00%)
+20:10:13.019 20:10:13.018 Message to master: anchor=/gr12/dir1: Created 492,795 of 1,048,576 files (47.00%)
+20:10:35.493 20:10:35.493 Message to master: anchor=/gr12/dir1: Created 503,280 of 1,048,576 files (48.00%)
+20:10:59.114 20:10:59.113 Message to master: anchor=/gr12/dir1: Created 513,765 of 1,048,576 files (49.00%)
+20:11:30.717 20:11:30.716 Message to master: anchor=/gr12/dir1: Created 524,250 of 1,048,576 files (50.00%)
+20:11:54.780 20:11:54.779 Message to master: anchor=/gr12/dir1: Created 534,735 of 1,048,576 files (51.00%)
+20:12:26.360 20:12:26.359 Message to master: anchor=/gr12/dir1: Created 545,220 of 1,048,576 files (52.00%)
+20:12:50.848 20:12:50.848 Message to master: anchor=/gr12/dir1: Created 555,705 of 1,048,576 files (53.00%)
+20:13:24.939 20:13:24.939 Message to master: anchor=/gr12/dir1: Created 566,190 of 1,048,576 files (54.00%)
+20:14:02.318 20:14:02.318 Message to master: anchor=/gr12/dir1: Created 576,675 of 1,048,576 files (55.00%)
+20:14:29.969 20:14:29.969 Message to master: anchor=/gr12/dir1: Created 587,160 of 1,048,576 files (56.00%)
+20:15:11.882 20:15:11.882 Message to master: anchor=/gr12/dir1: Created 597,645 of 1,048,576 files (57.00%)
+20:15:36.038 20:15:36.037 Message to master: anchor=/gr12/dir1: Created 608,130 of 1,048,576 files (58.00%)
+20:16:08.996 20:16:08.995 Message to master: anchor=/gr12/dir1: Created 618,615 of 1,048,576 files (59.00%)
+20:16:44.842 20:16:44.841 Message to master: anchor=/gr12/dir1: Created 629,100 of 1,048,576 files (60.00%)
+20:17:28.625 20:17:28.624 Message to master: anchor=/gr12/dir1: Created 639,585 of 1,048,576 files (61.00%)
+20:18:00.598 20:18:00.597 Message to master: anchor=/gr12/dir1: Created 650,070 of 1,048,576 files (62.00%)
+20:18:36.532 20:18:36.532 Message to master: anchor=/gr12/dir1: Created 660,555 of 1,048,576 files (63.00%)
+20:19:03.043 20:19:03.042 Message to master: anchor=/gr12/dir1: Created 671,040 of 1,048,576 files (64.00%)
+20:19:41.186 20:19:41.186 Message to master: anchor=/gr12/dir1: Created 681,525 of 1,048,576 files (65.00%)
+20:20:02.454 20:20:02.454 Message to master: anchor=/gr12/dir1: Created 692,010 of 1,048,576 files (66.00%)
+20:20:35.217 20:20:35.217 Message to master: anchor=/gr12/dir1: Created 702,495 of 1,048,576 files (67.00%)
+20:21:16.607 20:21:16.607 Message to master: anchor=/gr12/dir1: Created 712,980 of 1,048,576 files (68.00%)
+20:22:02.029 20:22:02.029 Message to master: anchor=/gr12/dir1: Created 723,465 of 1,048,576 files (68.99%)
+20:22:32.884 20:22:32.884 Message to master: anchor=/gr12/dir1: Created 733,950 of 1,048,576 files (69.99%)
+20:23:17.797 20:23:17.797 Message to master: anchor=/gr12/dir1: Created 744,435 of 1,048,576 files (70.99%)
+20:23:53.199 20:23:53.198 Message to master: anchor=/gr12/dir1: Created 754,920 of 1,048,576 files (71.99%)
+20:24:12.854 20:24:12.854 Message to master: anchor=/gr12/dir1: Created 765,405 of 1,048,576 files (72.99%)
+20:24:36.726 20:24:36.726 Message to master: anchor=/gr12/dir1: Created 775,890 of 1,048,576 files (73.99%)
+20:25:31.401 20:25:31.401 Message to master: anchor=/gr12/dir1: Created 786,375 of 1,048,576 files (74.99%)
+20:26:01.401 20:26:01.401 Message to master: anchor=/gr12/dir1: Created 796,860 of 1,048,576 files (75.99%)
+20:27:05.485 20:27:05.485 Message to master: anchor=/gr12/dir1: Created 807,345 of 1,048,576 files (76.99%)
+20:27:27.226 20:27:27.226 Message to master: anchor=/gr12/dir1: Created 817,830 of 1,048,576 files (77.99%)
+20:28:24.590 20:28:24.590 Message to master: anchor=/gr12/dir1: Created 828,315 of 1,048,576 files (78.99%)
+20:29:12.174 20:29:12.173 Message to master: anchor=/gr12/dir1: Created 838,800 of 1,048,576 files (79.99%)
+20:29:31.406 20:29:31.406 Message to master: anchor=/gr12/dir1: Created 849,285 of 1,048,576 files (80.99%)
+20:30:27.162 20:30:27.162 Message to master: anchor=/gr12/dir1: Created 859,770 of 1,048,576 files (81.99%)
+20:31:03.187 20:31:03.187 Message to master: anchor=/gr12/dir1: Created 870,255 of 1,048,576 files (82.99%)
+20:31:40.308 20:31:40.308 Message to master: anchor=/gr12/dir1: Created 880,740 of 1,048,576 files (83.99%)
+20:32:17.685 20:32:17.685 Message to master: anchor=/gr12/dir1: Created 891,225 of 1,048,576 files (84.99%)
+20:32:54.719 20:32:54.719 Message to master: anchor=/gr12/dir1: Created 901,710 of 1,048,576 files (85.99%)
+20:33:21.135 20:33:21.135 Message to master: anchor=/gr12/dir1: Created 912,195 of 1,048,576 files (86.99%)
+20:33:47.596 20:33:47.595 Message to master: anchor=/gr12/dir1: Created 922,680 of 1,048,576 files (87.99%)
+20:34:20.560 20:34:20.559 Message to master: anchor=/gr12/dir1: Created 933,165 of 1,048,576 files (88.99%)
+20:34:45.057 20:34:45.057 Message to master: anchor=/gr12/dir1: Created 943,650 of 1,048,576 files (89.99%)
+20:35:12.955 20:35:12.955 Message to master: anchor=/gr12/dir1: Created 954,135 of 1,048,576 files (90.99%)
+20:35:58.632 20:35:58.632 Message to master: anchor=/gr12/dir1: Created 964,620 of 1,048,576 files (91.99%)
+20:36:51.381 20:36:51.381 Message to master: anchor=/gr12/dir1: Created 975,105 of 1,048,576 files (92.99%)
+20:37:18.860 20:37:18.860 Message to master: anchor=/gr12/dir1: Created 985,590 of 1,048,576 files (93.99%)
+20:37:48.464 20:37:48.463 Message to master: anchor=/gr12/dir1: Created 996,075 of 1,048,576 files (94.99%)
+20:38:09.125 20:38:09.124 Message to master: anchor=/gr12/dir1: Created 1,006,560 of 1,048,576 files (95.99%)
+20:38:38.073 20:38:38.073 Message to master: anchor=/gr12/dir1: Created 1,017,045 of 1,048,576 files (96.99%)
+20:39:13.786 20:39:13.786 Message to master: anchor=/gr12/dir1: Created 1,027,530 of 1,048,576 files (97.99%)
+20:40:03.069 20:40:03.068 Message to master: anchor=/gr12/dir1: Created 1,038,015 of 1,048,576 files (98.99%)
+20:40:40.744 20:40:40.743 Message to master: anchor=/gr12/dir1: Created 1,048,500 of 1,048,576 files (99.99%)
+20:40:40.751 20:40:40.751 Message to master: anchor=/gr12/dir1 create complete.
+20:40:40.858 20:40:40.857 
+20:40:40.858 20:40:40.857 Miscellaneous statistics:
+20:40:40.858 20:40:40.858 FILE_CREATES        Files created:                            1,048,576
+20:40:40.859 20:40:40.858 DIRECTORY_CREATES   Directories created:                             64
+20:40:40.859 20:40:40.859 FILE_DELETES        Files deleted:                              332,798
+20:40:40.859 20:40:40.859 DIRECTORY_DELETES   Directories deleted:                             64
+20:40:40.859 20:40:40.859 WRITE_OPENS         Files opened for write activity:          1,048,576
+20:40:40.859 20:40:40.859 DIR_EXISTS          Directory may not exist (yet):                    6
+20:40:40.860 20:40:40.859 FILE_CLOSES         Close requests:                           1,048,576
+20:40:40.860 20:40:40.859 
+20:40:40.861 20:40:40.861 Dedup counters. Bytes written: 4g across: 0 (0.0%) on_sd: 0 (0.0%) dups: 4g (100.0%) resulting dedup=5.0% (20.00:1)
+20:40:40.864 20:40:40.863 Dedup options: 
+20:40:40.864 dedup_type:                            1
+20:40:40.864 dedup_ratio:                       20.00
+20:40:40.864 dedup_unit:                        4,096
+20:40:40.864 flipflop:                             no
+20:40:40.864 hot_dedup_sets:                        0
+20:40:40.864 hot_dedup_blocks:                      0
+20:40:40.864 dedup_sets_reqd:                      5%
+20:40:40.864 dedup_sets_used:                  52,428
+20:40:40.864 
+20:40:40.864 unique_blocks:                         0
+20:40:40.864 duplicate_blocks:              1,048,576 (including 52,428 originals)
+20:40:40.864 dedup_pct:                          5.00
+20:40:40.864 dedup_adjusted:                     0.00
+20:40:40.865 total_size:                           4g
+20:40:40.865 unit_blocks:                   1,048,576
+20:40:40.865 
+20:40:40.865 Info only reliable if xfersize is multiple of dedupunit:
+20:40:40.865 uniques_written:                       0; expected 0; delta 0 
+20:40:40.865 duplicates_written:            1,048,576; expected 1,048,576; delta 0 
+20:40:40.865 Total writes:                  1,048,576; delta 0
+20:40:40.865 flipflops:                             0
+20:40:40.865 
+20:40:40.865 Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+20:40:40.865 Dsim counts: Duplicates:         996,148
+20:40:40.865 Dsim counts: Ratio:                20.00 (20.00031)
+20:40:40.865 
+20:40:40.865 20:40:40.864 Java Heap in MB. max: 1024.000; current:  167.000; used:  132.237; free:   34.763
+20:40:40.865 20:40:40.864 Maximum native memory allocation:    1,081,344; Current allocation:    1,081,344
+20:40:41.080 20:40:41.080 Writing control file for anchor=/gr12/dir1 at end of run.
+20:40:41.831 20:40:41.831 Completed control file for anchor=/gr12/dir1 at end of run.  dirs: 64/64 files: 1048576/1048576 sizes: 4g/4g/1048576/4g
+20:40:41.833 20:40:41.832 End of run
+20:40:41.833 20:40:41.832 **********
+20:40:41.833 
+20:40:41.833 
+20:40:41.941 20:40:41.941 Beginning of run setup
+20:40:41.941 20:40:41.941 **********************
+20:40:41.941 
+20:40:41.941 
+20:40:41.998 20:40:41.998 Starting initializeFileAnchor for rd=rd1 For loops: None anchor=fsd1
+20:40:41.999 20:40:41.999 Reading control file for anchor=/gr12/dir1
+20:40:42.022 20:40:42.022 Completed reading control file.
+20:40:42.023 20:40:42.022 Completed the creation of the directory list for /gr12/dir1: 64 directories.
+20:40:42.214 20:40:42.214 Generated 1,048,576 file names; total anchor size: 4g (4,294,967,296)
+20:40:42.214 20:40:42.214 No deletes and creates. Control file not cleared.
+20:40:42.214 20:40:42.214 During anchor creation for anchor=/gr12/dir1 there were 64 directories and 1048576 files
+20:40:42.215 20:40:42.215 Completed initializeFileAnchor for fsd1: 0.22
+20:40:42.315 20:40:42.314 Started 64 threads for fwd=fwd1,fsd=fsd1,operation=read
+20:40:42.315 20:40:42.314 Started 64 FwgThreads for rd=rd1 For loops: None
+20:40:42.315 20:40:42.314 Waiting for task synchronization
+20:40:42.315 20:40:42.314 Requesting full garbage collection
+20:40:42.315 20:40:42.315 GcTracker: cum: 148 intv:  6 ms:      54 mss:  0.00% Heap_MB max:  1024 curr:   210 used:   201 free:     9 
+20:40:42.384 20:40:42.383 GcTracker: cum: 149 intv:  1 ms:      68 mss:  0.00% Heap_MB max:  1024 curr:   210 used:   101 free:   109 
+20:40:42.384 20:40:42.383 task_wait_start_complete() end
+
+<a name="_1156060786"></a><i><b>20:40:43.001 Starting RD=rd1; elapsed=60; fwdrate=max. For loops: None</b></i>
+
+20:40:43.002 20:40:43.002 task_run_all(): 65 tasks
+20:41:46.722 20:41:46.722 
+20:41:46.722 20:41:46.722 Miscellaneous statistics:
+20:41:46.722 20:41:46.722 WRITE_OPENS         Files opened for write activity:              3,736
+20:41:46.723 20:41:46.722 FILE_BUSY           File busy:                                        1
+20:41:46.723 20:41:46.723 FILE_CLOSES         Close requests:                               3,736
+20:41:46.723 20:41:46.723 
+20:41:46.724 20:41:46.724 Dedup counters. Bytes written: 14.594m across: 0 (0.0%) on_sd: 0 (0.0%) dups: 14.594m (100.0%) resulting dedup=5.0% (20.00:1)
+20:41:46.728 20:41:46.728 Dedup options: 
+20:41:46.728 dedup_type:                            1
+20:41:46.728 dedup_ratio:                       20.00
+20:41:46.728 dedup_unit:                        4,096
+20:41:46.728 flipflop:                             no
+20:41:46.728 hot_dedup_sets:                        0
+20:41:46.728 hot_dedup_blocks:                      0
+20:41:46.728 dedup_sets_reqd:                      5%
+20:41:46.729 dedup_sets_used:                  52,428
+20:41:46.729 
+20:41:46.729 unique_blocks:                         0
+20:41:46.729 duplicate_blocks:              1,048,576 (including 52,428 originals)
+20:41:46.729 dedup_pct:                          5.00
+20:41:46.729 dedup_adjusted:                     0.00
+20:41:46.729 total_size:                           4g
+20:41:46.729 unit_blocks:                   1,048,576
+20:41:46.729 
+20:41:46.729 Info only reliable if xfersize is multiple of dedupunit:
+20:41:46.729 uniques_written:                       0; expected 0; delta 0 
+20:41:46.729 duplicates_written:                3,736; expected 1,048,576; delta -1,044,840 
+20:41:46.729 Total writes:                      3,736; delta -1,044,840
+20:41:46.729 flipflops:                             0
+20:41:46.729 
+20:41:46.729 Dsim counts: Hash size:           52,428 (0 uniques + 52,428 sets)
+20:41:46.729 Dsim counts: Duplicates:         996,148
+20:41:46.729 Dsim counts: Ratio:                20.00 (20.00031)
+20:41:46.730 
+20:41:46.730 20:41:46.728 Java Heap in MB. max: 1024.000; current:  210.000; used:  127.842; free:   82.158
+20:41:46.730 20:41:46.729 Maximum native memory allocation:    2,097,152; Current allocation:    2,097,152
+20:41:46.730 20:41:46.729 Writing control file for anchor=/gr12/dir1 at end of run.
+20:41:47.693 20:41:47.692 Completed control file for anchor=/gr12/dir1 at end of run.  dirs: 64/64 files: 1048576/1048576 sizes: 4g/4g/3731/14.574m
+20:41:47.693 20:41:47.693 End of run
+20:41:47.693 20:41:47.693 **********
+20:41:47.693 
+20:41:47.693 
+20:41:48.415 20:41:48.414 Master is requesting slave shutdown
+20:41:48.416 20:41:48.415 Java Heap in MB. max: 1024.000; current:  210.000; used:  129.149; free:   80.851

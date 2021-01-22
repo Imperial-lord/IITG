@@ -1,0 +1,37 @@
+Question 1. 
+a. Number of iterations n = 3
+b. The order of convergence for this case is = 1
+
+Question 2.
+For value n = 1 the root is x = 3.0
+For value n = 10 the root is x = 2.02
+For value n = 100 the root is x = 2.0340000000000003
+For value n = 1000 the root is x = 2.0284
+For value n = 10000 the root is x = 2.02882
+For value n = 100000 the root is x = 2.028764
+For value n = 1000000 the root is x = 2.0287584
+
+Quesiton 3.
+a. Bisection's approximate root = 1.8929322922508809
+b. Newton's root = 1.895494267033981
+
+Question 4.
+a. Bisection's approximate root = 1.8929322922508809
+b. The order of convergence = 1
+
+Quesiton 5.
+An approximate root using secant method = -0.5791589060508088
+
+Question 6. 
+a. Bisection's approximate root = -0.58203125
+b. The order of convergence = 1
+
+Question 7.
+a. Bisection's approximate root = 1.8929322922508809
+b. The order of convergence = 1
+
+Question 8.
+a. Bisection's approximate root = -0.58203125
+b. The order of convergence = 2
+
+

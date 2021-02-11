@@ -1,0 +1,12 @@
+Please READ this first.
+
+1. Compile all python programs using Python version 3.x only. Using python 2 will result is errors.
+To compile using Python 3 use: python3 <filename>.py
+
+2. The following packages need to be installed.
+	a. numpy: pip3 install numpy
+	b. matplotlib: pip3 install matplotlib
+	c. sympy: pip3 install sympy
+
+3. Kindly zoomin for the plots to show up completely. Since the title is a little large its possible the thing will get overwritten/hidden. 
+   So please open the plots in full-screen mode.

@@ -1,0 +1,63 @@
+Question 1:
+i.   Approximation of f(0.25) using linear Lagrange interpolation with x0 = 0 and x1 = 0.5 is 1.324360635350064
+ii.  Approximation of f(0.75) using linear Lagrange interpolation with x0 = 0.5 and x1 = 1 is 2.183501549579587
+iii. Approximation of f(0.25) using second Lagrange interpolating polynomial with x0 = 0, x1 = 1, and x2 = 2 is 1.1527742906760838
+     Approximation of f(0.75) using second Lagrange interpolating polynomial with x0 = 0, x1 = 1, and x2 = 2 is 2.0119152049056064
+iv.  Error for linear approximation of f(0.25) is 0.0403352186623227
+	 Error for linear approximation of f(0.75) is 0.06650153296691208
+	 Error for second polynomial approximation of f(0.25) is 0.13125112601165756
+	 Error for second polynomial approximation of f(0.75) is 0.1050848117070684
+	 Clearly, linear Lagrange interpolation gives a better approximation to obtain f(0.25) and f(0.75)
+
+
+Question 2:
+Approximation of f(8.4) using the  Lagrange interpolating polynomials of degrees one, two, and three are:
+Degree 1 = 17.87833
+Degree 2 = 17.877129999999998
+Degree 3 = 17.8771425
+
+
+Approximation of f(-1/3) using the  Lagrange interpolating polynomials of degrees one, two, and three are:
+Degree 1 = 0.2150416666666667
+Degree 2 = 0.1803055555555556
+Degree 3 = 0.17451851851851857
+
+
+Question 3:
+The Lagrange form of interpolating polynomial P2(x) is: 
+          2
+-0.6321 x + 1
+The value of P2(0.9) rounded to 6 decimal places is 0.487982
+The true value of f(0.9) is 0.444858066222941
+The max error in this calculation is 0.111250691215829
+
+
+Question 4:
+The third Lagrange polynomial approximation for f(1.09) rounded to 4 decimal places is 0.2826
+The bound for the error in this approximation is 0.00000733574633048291
+
+
+Question 5:
+The interpolating polynomial using monomial basis is 
+            10            9           8          7         6         5
+-0.0002411 x  + 0.004953 x - 0.04417 x + 0.2216 x - 0.672 x + 1.216 x
+          4          3          2
+ - 1.161 x + 0.3977 x - 0.3009 x + 1.182 x - 0.001038
+ 
+The interpolating polynomial using lagrange basis is 
+            10            9           8          7         6         5
+-0.0002411 x  + 0.004953 x - 0.04417 x + 0.2216 x - 0.672 x + 1.216 x
+          4          3          2
+ - 1.161 x + 0.3977 x - 0.3009 x + 1.182 x - 0.001038
+
+The interpolating polynomial using newton basis is 
+            10            9           8          7         6         5
+-0.0002411 x  + 0.004953 x - 0.04417 x + 0.2216 x - 0.672 x + 1.216 x
+          4          3          2
+ - 1.161 x + 0.3977 x - 0.3009 x + 1.182 x - 0.001038
+
+As we can see from the plots, the error value becomes very high as we move out of the range [1 3] - especially towards 4
+So it is not recommended to use polynomial interpolation to approximate erf at points outside [1 3]
+
+
+Note: All graphs have been plotted are in the Plots folder. They have also been attached on the report.

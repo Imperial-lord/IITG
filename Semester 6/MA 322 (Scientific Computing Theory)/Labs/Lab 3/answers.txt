@@ -1,0 +1,129 @@
+Question 1.
+(i)	Newton's interpolating polynomial of degree 1 using nodes: 0.25, 0.5 is  
+	4.278 x + 0.5792
+	Approximated value of f(0.43) using the above is 2.4188032
+
+	Newton's interpolating polynomial of degree 2 using nodes: 0.25, 0.5, 0.75 is 
+		   2
+	5.551 x + 0.1151 x + 1.273
+	Approximated value of f(0.43) using the above is 2.34886312
+
+	Newton's interpolating polynomial of degree 3 using nodes: 0, 0.25, 0.5, 0.75 is 
+		   3         2
+	2.912 x + 1.183 x + 2.117 x + 1
+	Approximated value of f(0.43) using the above is 2.36060473408
+
+
+(ii) Newton's interpolating polynomial of degree 1 using nodes: 0.1, 0.2 is  
+	-2.707 x - 0.0193
+	Approximated value of f(0.18) using the above is -0.506647844
+
+	Newton's interpolating polynomial of degree 2 using nodes: 0.1, 0.2, 0.3 is 
+		    2
+	0.8763 x - 2.97 x - 0.001777
+	Approximated value of f(0.18) using the above is -0.508049852
+
+	Newton's interpolating polynomial of degree 3 using nodes: 0.1, 0.2, 0.3, 0.4 is 
+		     3         2
+	-0.4855 x + 1.168 x - 3.024 x + 0.001136
+	Approximated value of f(0.18) using the above is -0.5081430744000002
+
+
+
+Question 2.
+(i)	Newton's interpolating polynomial of degree 1 using nodes: -0.5, -0.25 is  
+	1.439 x + 0.6946
+	Approximated value of f(-0.3333333333333333) using the above is 0.21504166666666674
+
+	Newton's interpolating polynomial of degree 2 using nodes: -0.75, -0.5, -0.25 is 
+		   2
+	2.501 x + 3.314 x + 1.007
+	Approximated value of f(-0.3333333333333333) using the above is 0.18030555555555572
+
+	Newton's interpolating polynomial of degree 3 using nodes: -0.75, -0.5, -0.25, 0 is 
+	   3         2
+	1 x + 4.001 x + 4.002 x + 1.101
+	Approximated value of f(-0.3333333333333333) using the above is 0.17451851851851852
+
+
+(ii) Newton's interpolating polynomial of degree 1 using nodes: 0.2, 0.3 is  
+	2.906 x - 0.8652
+	Approximated value of f(0.25) using the above is -0.1386928649999999
+
+	Newton's interpolating polynomial of degree 2 using nodes: 0.1, 0.2, 0.3 is 
+		    2
+	-2.296 x + 4.054 x - 1.003
+	Approximated value of f(0.25) using the above is -0.13295220624999993
+
+	Newton's interpolating polynomial of degree 3 using nodes: 0.1, 0.2, 0.3, 0.4 is 
+		     3         2
+	-0.4732 x - 2.012 x + 4.002 x - 1
+	Approximated value of f(0.25) using the above is -0.13277477437499996
+
+
+
+Question 3.
+The value of ∆_2(P(10)) = 1140
+
+
+
+Question 4.
+(i) Thus, the approximation of g(0.25) using direct interpolation = P(0.25) = 3.864718750000005
+	The error term is at x = 0.25 is 0.0468796874999999
+
+(i) Thus, the approximation of g(0.25) using interpolation on xg(x) table = P(0.25) = 3.9584725
+	The error term is at x = 0.25 is 5.62499999994317e-6
+
+(iii) Since the differences in (i) are oscillating and are not decreasing fast, the resulting error in interpolation would be large.
+	However, the differences in (ii) tend to become smaller in magnitude, we expect more accurate results in this case.
+	
+	
+	
+Question 5.
+(i) The value of P(-2) = -1
+	The value of P(-1) = 3
+	The value of P(0) = 1
+	The value of P(1) = -1
+	The value of P(2) = 3
+
+	The value of Q(-2) = -1
+	The value of Q(-1) = 3
+	The value of Q(0) = 1
+	The value of Q(1) = -1
+	The value of Q(2) = 3
+
+	Thus, both cubic polynomails P(x) and Q(x) interpolate the given data
+
+(ii) Simplifying P(x) we get x**3 - 3*x + 1
+	Simplifying Q(x) we get x**3 - 3*x + 1
+	Since we can clearly see that P(x) = Q(x), this ensures that the uniqueness property of interpolating polynmials is not violated
+	
+
+
+Question 6.
+As we can simply observe, if all 4th order forward differences are 1, this means
+All 5th order forward differences will be 0, in other words degree of polynmial is 4
+The polynmial is thus given as 
+         4          3         2
+0.04167 x - 0.9167 x + 2.958 x + 2.917 x + 4
+Clearly, the coefficient of x^3 is -0.9166666666666666 or -11/12
+
+
+
+Question 7.
+Using P(x) we find the following:
+f[x0,x1,x2,x3] = 16/3
+f[x0,x1,x2] = 4
+f[x0,x1] = 4
+f[x0] = 1
+
+Using the above information and simple arithmetic, the divided differences table is obtained as follows:
+x		f
+-------------------------------------------------------------------
+0		1	 	 	 	
+0.25	2		4	 	 	
+0.5		3.5		6		4	 	
+0.75	6		10		8	5.333333333333333	
+
+Clearly, from the above table, we get f(0.75) = 6
+

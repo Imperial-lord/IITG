@@ -1,0 +1,176 @@
+Question 1:
+To integrate cos(x)/(cos(x)**2 + 1) from 0 to pi/2
+Evaluated value of integral using Midpoint rule is 0.740480489693061
+Evaluated value of integral using Trapezoidal rule is 0.392699081698724
+Evaluated value of integral using Simpson rule is 0.624553353694949
+Exact value ≈ 0.623225
+
+To integrate 1/(4*cos(x) + 5) from 0 to pi
+Evaluated value of integral using Midpoint rule is 0.628318530717959
+Evaluated value of integral using Trapezoidal rule is 1.74532925199433
+Evaluated value of integral using Simpson rule is 1.00065543781008
+Exact value ≈ 1.047198
+
+To integrate exp(-x**2) from 0 to 1
+Evaluated value of integral using Midpoint rule is 0.778800783071405
+Evaluated value of integral using Trapezoidal rule is 0.683939720585721
+Evaluated value of integral using Simpson rule is 0.747180428909510
+Exact value ≈ 0.746824
+
+
+Question 2:
+Evaluated value of integral using (composite) Trapezoidal rule is 7.125
+Evaluated value of integral using (composite) Simpson rule is 7.083333333333333
+Evaluated value of integral using Trapezoidal (not composite) rule is 7.5
+Evaluated value of integral using Simpson rule (not composite) is 7.166666666666667
+
+
+Question 3:
+Evaluated value of integral using composite Simpson rule is 0.5205962059620596
+Evaluated value of integral using composite Trapezoidal rule is 0.5098915989159891
+
+
+Question 4:
+Actual value of integral is 1.09861228866811
+
+N-value   Trapezoidal   Simpson
+                       
+1.0         1.333333       NaN
+2.0         1.166667  1.111111
+3.0         1.130159  1.020106
+4.0         1.116667  1.100000
+5.0         1.110268  1.051867
+6.0         1.106746  1.098942
+7.0         1.104606  1.065548
+8.0         1.103211  1.098725
+9.0         1.102251  1.073081
+10.0        1.101562  1.098661
+11.0        1.101052  1.077833
+12.0        1.100664  1.098636
+13.0        1.100361  1.081098
+14.0        1.100121  1.098625
+15.0        1.099927  1.083479
+16.0        1.099768  1.098620
+17.0        1.099636  1.085290
+18.0        1.099526  1.098617
+19.0        1.099432  1.086715
+20.0        1.099352  1.098616
+21.0        1.099283  1.087865
+22.0        1.099224  1.098614
+23.0        1.099172  1.088812
+24.0        1.099126  1.098614
+25.0        1.099086  1.089606
+26.0        1.099050  1.098613
+27.0        1.099018  1.090281
+28.0        1.098990  1.098613
+29.0        1.098964  1.090862
+30.0        1.098941  1.098613 
+
+(Plots have been put in /Plots folder)
+
+
+Question 5:
+Actual value of integral is 0.405465108108164
+
+For part a: (Trapezoidal Rule)
+Constraints : h <= 0.0438178046004133 and n >= 46
+Required tuple (n,h) with error < 0.00001 is (46, 0.043478260869565216)
+Estimated value of integral is 0.4054705778040844
+Error in this case is 5.46969592002400e-6
+
+For part b: (Simpson Rule)
+Constraints : h <= 0.44267276788012866 and n >= 6
+Required tuple (n,h) with error < 0.00001 is (6, 0.3333333333333333)
+Estimated value of integral is 0.4054663745840217
+Error in this case is 1.26647585729778e-6
+
+For part c: (Midpoint Rule)
+Constraints : h <= 0.03098386676965934 and n >= 66
+Required tuple (n,h) with error < 0.00001 is (66, 0.030303030303030304)
+Estimated value of integral is 0.40546377960653796
+Error in this case is 1.32850162642972e-6
+
+
+Question 6:
+For part a:
+
+          h/2             T(h/2) |T(h)-T(h/2)|/|T(h/2)|
+0        1.5  0.917307692307692      0.509433962264151
+1       0.75   1.09700436161776      0.163806704510337
+2      0.375   1.13845856640156     0.0364125722333715
+3     0.1875   1.14811803396732    0.00841330532225772
+4    0.09375   1.15050088622580    0.00207114334895892
+5   0.046875   1.15109475242811   0.000515914264279210
+6   0.023438   1.15124310551227   0.000128863385544677
+7   0.011719   1.15128018672115    3.22086745744655e-5
+8   0.005859   1.15128945658244    8.05172082448184e-6
+9    0.00293   1.15129177402021    2.01290222260620e-6
+10  0.001465   1.15129235337794    5.03223809589083e-7 
+
+Estimated value of integral is 1.15129235337794
+The total number of function evaluations f(x) is 2049
+
+
+For part b:
+
+          h/2            T(h/2) |T(h)-T(h/2)|/|T(h/2)|
+0      0.475  5.89226190476190      0.692898272552783
+1     0.2375  4.08369331873875      0.442875711974797
+2    0.11875  3.35707584784789      0.216443566908585
+3   0.059375  3.10177198119345     0.0823090376089534
+4   0.029687  3.02413350261602     0.0256729666564883
+5   0.014844  3.00299624330640    0.00703872319412089
+6   0.007422  2.99755981998456    0.00181361629068801
+7   0.003711  2.99618990900855   0.000457217672316779
+8   0.001855  2.99584672967332   0.000114551699799879
+9   0.000928  2.99576089054454    2.86535314135060e-5
+10  0.000464  2.99573942798678    7.16436067594955e-6
+11  0.000232  2.99573406217376    1.79115131995161e-6
+12  0.000116  2.99573272070966    4.47791651650761e-7 
+
+Estimated value of integral is 2.99573272070966
+The total number of function evaluations f(x) is 8193
+
+
+For part c.1 with m = 0.5:
+
+         h/2            T(h/2) |T(h)-T(h/2)|/|T(h/2)|
+0  0.785398  1.85495913108563     0.0221890424223644
+1  0.392699  1.85407522776731   0.000476735412394760
+2   0.19635  1.85407467730167    2.96895075375513e-7 
+
+Estimated value of integral is 1.85407467730167
+The total number of function evaluations f(x) is 9
+
+
+For part c.2 with m = 0.8:
+
+         h/2            T(h/2) |T(h)-T(h/2)|/|T(h/2)|
+0  0.785398  2.28474559207222      0.112422256104431
+1  0.392699  2.25762152697275     0.0120144429770034
+2   0.19635  2.25720546146261   0.000184327708417783
+3  0.098175  2.25720532682087    5.96497509281531e-8 
+
+Estimated value of integral is 2.25720532682087
+The total number of function evaluations f(x) is 17
+
+
+For part c.3 with m = 0.95:
+
+         h/2            T(h/2) |T(h)-T(h/2)|/|T(h/2)|
+0  0.785398  3.23285521032154      0.329414789501306
+1  0.392699  2.94266734632302     0.0986138866022765
+2   0.19635  2.90897327685914     0.0115828047414244
+3  0.098175  2.90833756138449   0.000218583799588455
+4  0.049087  2.90833724844466    1.07600942541519e-7 
+
+Estimated value of integral is 2.90833724844466
+The total number of function evaluations f(x) is 33
+
+
+Question 7:
+(a) Answer in report.pdf
+(b) Using inexact function evaluations
+Approximate value of integral for h=0.0002 is 0.25503530095131205
+Error in the process: 0.005013499273933131
+

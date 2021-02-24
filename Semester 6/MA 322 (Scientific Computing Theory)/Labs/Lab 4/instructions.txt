@@ -1,0 +1,12 @@
+Please READ this first.
+
+1. Compile all python programs using Python version 3.x only. Using Python 2 will result is errors.
+To compile using Python 3 use: python3 <filename>.py
+
+2. The following packages need to be installed.
+	a. numpy: pip3 install numpy
+	b. sympy: pip3 install sympy
+	c. matplotlib: pip3 install matplotlib
+	d. pandas: pip3 install pandas
+
+3. All code files are in /Code folder and all plots are in /Plots folder.

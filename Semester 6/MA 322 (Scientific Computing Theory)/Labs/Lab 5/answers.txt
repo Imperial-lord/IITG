@@ -1,0 +1,72 @@
+Question 01.
+(a) Using Gaussian Quadrature with n = 2
+Approximate value of integral is 0.19225937725687903
+Exact value of the integral is 0.192259357732796
+Error in estimation is 1.95240829614640E-8
+
+(b) Using Gaussian Quadrature with n = 2
+Approximate value of integral is -0.17682001788622057
+Exact value of the integral is -0.176820020121789
+Error in estimation is 2.23556864686891E-9
+
+(c) Using Gaussian Quadrature with n = 2
+Approximate value of integral is 0.0887538536178567
+Exact value of the integral is 0.0887552844352566
+Error in estimation is 0.00000143081739989448
+
+
+
+Question 02.
+       __
+f(x) = || (x-x(i))^2
+      i ϵ K
+where K = set of all points where wj >=0 for j ϵ 1,2,..n
+
+For a detailed solution look at the images attached to the report!
+
+
+
+Question 03.
+Using 2 point Gaussian Quadrature rule approx. value of integral is 1.0909090909090908
+Using Trapezoidal rule approximate value of the integral is 1.33333333333333
+Using Simpson's rule approximate value of the integral is 1.11111111111111
+Actual value of integral is 1.09861228866811
+
+------------------------------------------------------------
+
+Error in estimation for Gaussain Quadrature rule = 0.00770319775901895
+Error in estimation for Trapezoidal rule = 0.234721044665223
+Error in estimation for Simpson's rule = 0.0124988224430014
+
+
+
+Question 04.
+Using 3 point Gaussian Quadrature rule approx. value of integral is 0.693121693121693
+Using Simpson's 1/3 rule with h = 0.125 approximate value of the integral is 0.6931545306545307
+Actual value of integral is 0.693147180559945
+
+------------------------------------------------------------
+
+Error in estimation for Gaussain Quadrature rule = 0.0000254874382522585
+Error in estimation for Simpson's rule = 0.00000735009458541214
+
+
+
+Question 05.
+Answer: The second formula is better.
+The following 2 points summarise the reason.
+a. The function value at a and b rises very high, thus the first equation will lead to a significant deviation from the exact result. However, this will not happen if the second equation is used.
+
+b. Since n = 2, the value of h will be high. This implies the error term due to both approximations will be significant. Since the second equation follows the Open Newton Cotes formula, while the first one follows a Closed Newton Cotes formula, in such a scenario as above, the second equation will lead to a lower error!
+
+
+
+Question 06.
+   N  Evaluated value using N+1 point Gaussian Quadrature
+   1                                              -0.76  
+   2                                              -0.84  
+   3                                              -0.87  
+   4                                              -0.88  
+   5                                              -0.89  
+
+The actual value of the integral is -0.9159655941772212

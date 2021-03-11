@@ -1,0 +1,117 @@
+Question 01
+(a)
+The approx solution in this case is given as:
+y(0.0) = 1.0
+y(0.5) = 1.1839397205857212
+y(1.0) = 1.436252215343503
+(b)
+The approx solution in this case is given as:
+y(1.0) = 2.0
+y(1.5) = 2.3333333333333335
+y(2.0) = 2.7083333333333335
+(c)
+The approx solution in this case is given as:
+y(2.0) = 2.0
+y(2.25) = 2.2071067811865475
+y(2.5) = 2.4909989078432044
+y(2.75) = 2.854680348463929
+y(3.0) = 3.3025964649736848
+(d)
+The approx solution in this case is given as:
+y(1.0) = 2.0
+y(1.25) = 1.2273243567064205
+y(1.5) = 0.8321501570804852
+y(1.75) = 0.5704467722825309
+y(2.0) = 0.37882661467612455
+
+
+
+Question 02
+(a)
+Approx Sol: [1.         1.18393972 1.43625222]
+Exact Sol: [1.         1.21402306 1.48988013]
+Error for y(0.0) = 0.0
+Error for y(0.5) = 0.030083340043987716
+Error for y(1.0) = 0.05362791030124714
+(b)
+Approx Sol: [2.         2.33333333 2.70833333]
+Exact Sol: [2.         2.35410197 2.74165739]
+Error for y(1.0) = 0.0
+Error for y(1.5) = 0.020768632916351226
+Error for y(2.0) = 0.03332405344060785
+(c)
+Approx Sol: [2.         2.20710678 2.49099891 2.85468035 3.30259646]
+Exact Sol: [2.         2.24412111 2.56445195 2.96519383 3.45128665]
+Error for y(2.0) = 0.0
+Error for y(2.25) = 0.03701432914995362
+Error for y(2.5) = 0.07345304138842979
+Error for y(2.75) = 0.11051348602782429
+Error for y(3.0) = 0.14869018729061345
+(d)
+Approx Sol: [2.         1.22732436 0.83215016 0.57044677 0.37882661]
+Exact Sol: [2.         1.40319897 1.01641015 0.73800977 0.5296871 ]
+Error for y(1.0) = 2.220446049250313e-16
+Error for y(1.25) = 0.1758746125735129
+Error for y(1.5) = 0.18425998959802636
+Error for y(1.75) = 0.16756299926745333
+Error for y(2.0) = 0.15086048336343416
+
+
+
+Question 03
+(a)
+   Evaluate    Approx    Actual     Error
+0    y(1.0) -1.000000 -1.000000  0.000000
+1   y(1.05) -0.950000 -0.952381  0.002381
+2    y(1.1) -0.904535 -0.909091  0.004555
+3   y(1.15) -0.863007 -0.869565  0.006558
+4    y(1.2) -0.824917 -0.833333  0.008416
+5   y(1.25) -0.789848 -0.800000  0.010152
+6    y(1.3) -0.757447 -0.769231  0.011784
+7   y(1.35) -0.727415 -0.740741  0.013326
+8    y(1.4) -0.699495 -0.714286  0.014791
+9   y(1.45) -0.673467 -0.689655  0.016188
+10   y(1.5) -0.649141 -0.666667  0.017525
+11  y(1.55) -0.626350 -0.645161  0.018811
+12   y(1.6) -0.604949 -0.625000  0.020051
+13  y(1.65) -0.584812 -0.606061  0.021249
+14   y(1.7) -0.565825 -0.588235  0.022410
+15  y(1.75) -0.547890 -0.571429  0.023539
+16   y(1.8) -0.530918 -0.555556  0.024637
+17  y(1.85) -0.514832 -0.540541  0.025708
+18   y(1.9) -0.499561 -0.526316  0.026754
+19  y(1.95) -0.485043 -0.512821  0.027778
+20   y(2.0) -0.471220 -0.500000  0.028780
+
+(b)
+(I)
+Estimated value of y(1.052) from interpolation =-0.9480987022541826
+Actual value of y = -0.950570342205323
+The error between them = 0.00247163995114053
+(II)
+Estimated value of y(1.555) from interpolation =-0.6241497188955423
+Actual value of y = -0.643086816720257
+The error between them = 0.0189370978247150
+(III)
+Estimated value of y(1.978) from interpolation =-0.4772194469532174
+Actual value of y = -0.505561172901921
+The error between them = 0.0283417259487038
+A plot is inside the /Plots folder
+
+
+
+Question 4
+Please read the solution from the report.
+
+Question 5
+Approximate value of y(3) = -785.2886498351327
+The actual value of y(3) = 0.1411200080598672
+The error in this case = 785.4297698431925
+The error bound in this case = 0.748121239953041
+Clearly, absolute error with h = 0.5 greatly exceeds the error bound computed using (I) in Q4
+
+If we reduce h by 10 times, i.e make it 0.05 we observe that:
+Approximate value of y(3) = 0.14133753721110437
+The actual value of y(3) = 0.1411200080598672
+The error in this case = 0.00021752915123715577
+For the reason read report.

@@ -3,7 +3,7 @@
 This repository contains all the documents (Lectures, Quizzes, Assignments etc.) of IITG from Semester 5 onwards. 
 
 ## 🙋‍♂️Who am I?
-I'm AB Satyaprakash - Software Developer, Competitive Programmer and a pre-final yearite at Mathematics and Computing, IIT Guwahati. I love being creative and passionate about the code I write.
+I'm AB Satyaprakash - Software Developer, Competitive Programmer and a final yearite at Mathematics and Computing, IIT Guwahati. I love being creative and passionate about the code I write.
 
 ## 🤔Why did I make this?
 Mostly for giving a helping hand to juniors or other interested students who might wanna have the lecures/ assinment solutions.
